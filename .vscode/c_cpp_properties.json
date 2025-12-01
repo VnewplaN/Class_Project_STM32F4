@@ -1,0 +1,93 @@
+{
+  "configurations": [
+    {
+      "name": "STM32F4",
+      "compilerPath": "C:/Program Files (x86)/GNU Arm Embedded Toolchain/bin/arm-none-eabi-gcc.exe",
+      "compileCommands": "${workspaceFolder}/build/Debug/compile_commands.json",
+      "intelliSenseMode": "gcc-arm",
+      "standard": "c11",
+      "includePath": [
+        "${workspaceFolder}/Core/Inc",
+        "${workspaceFolder}/Drivers/STM32F4xx_HAL_Driver/Inc",
+        "${workspaceFolder}/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy",
+        "${workspaceFolder}/Middlewares/Third_Party/FreeRTOS/Source/include",
+        "${workspaceFolder}/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2",
+        "${workspaceFolder}/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F",
+        "${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32F4xx/Include",
+        "${workspaceFolder}/Drivers/CMSIS/Include",
+        "${workspaceFolder}/Core/Src"
+      ],
+      "defines": [
+        "USE_HAL_DRIVER",
+        "STM32F401xE",
+        "DEBUG"
+      ],
+      "browse": {
+        "path": [
+          "${workspaceFolder}/Core/Inc",
+          "${workspaceFolder}/Core/Src",
+          "${workspaceFolder}/Drivers/STM32F4xx_HAL_Driver/Inc",
+          "${workspaceFolder}/Drivers/CMSIS/Include"
+        ]
+      }
+    },
+    {
+      "name": "CMake Tools",
+      "configurationProvider": "ms-vscode.cmake-tools",
+      "intelliSenseMode": "gcc-arm",
+      "standard": "c11"
+    }
+  ],
+  "version": 4
+}
+{
+  "configurations": [
+    {
+      "name": "STM32F4",
+      "compilerPath": "C:/Program Files (x86)/GNU Arm Embedded Toolchain/bin/arm-none-eabi-gcc.exe",
+      "compileCommands": "${workspaceFolder}/build/Debug/compile_commands.json",
+      "intelliSenseMode": "gcc-arm",
+      "standard": "c11",
+      "includePath": [
+        "${workspaceFolder}/Core/Inc",
+        "${workspaceFolder}/Drivers/STM32F4xx_HAL_Driver/Inc",
+        "${workspaceFolder}/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy",
+        "${workspaceFolder}/Middlewares/Third_Party/FreeRTOS/Source/include",
+        "${workspaceFolder}/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2",
+        "${workspaceFolder}/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F",
+        "${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32F4xx/Include",
+        "${workspaceFolder}/Drivers/CMSIS/Include"
+      ],
+      "defines": [
+        "USE_HAL_DRIVER",
+        "STM32F401xE",
+        "DEBUG"
+      ],
+      "browse": {
+        "path": [
+          "${workspaceFolder}/Core/Inc",
+          "${workspaceFolder}/Core/Src",
+          "${workspaceFolder}/Drivers/STM32F4xx_HAL_Driver/Inc",
+          "${workspaceFolder}/Drivers/CMSIS/Include"
+        ]
+      }
+    }
+  ],
+  "version": 4
+}
+{
+    "version": 4,
+    "configurations": [
+        {
+            /** 
+             * ms-vscode.cmake-tools plugin should be installed.
+             * 
+             * It provides data for C/C++ plugin,
+             * such as include paths, browse paths, defines, etc.
+             */
+            "name": "STM32",
+            "configurationProvider": "ms-vscode.cmake-tools",
+            "intelliSenseMode": "${default}"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+  "C_Cpp.default.compileCommands": "${workspaceFolder}/build/Debug/compile_commands.json",
+  "C_Cpp.default.intelliSenseEngine": "Default",
+  "C_Cpp.intelliSenseEngine": "Default",
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.gotoLocation.multipleImplementations": "goto",
+  "editor.gotoLocation.multipleDeclarations": "goto",
+  "editor.multiCursorModifier": "alt",
+  "files.associations": {
+    "*.h": "c"
+  }
+}
