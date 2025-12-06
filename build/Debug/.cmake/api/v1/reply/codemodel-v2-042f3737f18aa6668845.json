@@ -19,7 +19,7 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						1
+						2
 					]
 				},
 				{
@@ -35,7 +35,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						2
+						1,
+						3
 					]
 				}
 			],
@@ -53,7 +54,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -61,22 +63,29 @@
 			[
 				{
 					"directoryIndex" : 1,
+					"id" : "FatFs::@768a070a0fe75716b479",
+					"jsonFile" : "target-FatFs-Debug-1f27dc3ad824853fff6b.json",
+					"name" : "FatFs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
 					"id" : "FreeRTOS::@768a070a0fe75716b479",
-					"jsonFile" : "target-FreeRTOS-Debug-b8eb448acab8b798881e.json",
+					"jsonFile" : "target-FreeRTOS-Debug-4794c7ecf657ca113ff2.json",
 					"name" : "FreeRTOS",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "LCD_BUTTON::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-LCD_BUTTON-Debug-663f4b2b02abf6c5457b.json",
+					"jsonFile" : "target-LCD_BUTTON-Debug-f7db0ab58c284616a4fd.json",
 					"name" : "LCD_BUTTON",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "STM32_Drivers::@768a070a0fe75716b479",
-					"jsonFile" : "target-STM32_Drivers-Debug-c58861891bc92e9f4d32.json",
+					"jsonFile" : "target-STM32_Drivers-Debug-a7325c60146ac1fa0499.json",
 					"name" : "STM32_Drivers",
 					"projectIndex" : 0
 				}

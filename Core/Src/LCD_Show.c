@@ -2,6 +2,7 @@
 #include "stdio.h"
 #include <stdlib.h>
 #include <string.h>
+#include <math.h>
 
 
 void Savings_Show(void)
@@ -23,6 +24,13 @@ void Temperature_Show(float temperature)
     SSD1306_GotoXY(1, 0);
     SSD1306_Puts("TEMP:", &Font_7x10, SSD1306_COLOR_WHITE);
     
+    if (isnan(temperature)) {
+        SSD1306_GotoXY(1, 20);
+        SSD1306_Puts("ERR", &Font_11x18, SSD1306_COLOR_WHITE);
+        SSD1306_UpdateScreen();
+        return;
+    }
+
     // Round to one decimal place
     int tscaled = (int)(temperature * 10.0f + (temperature >= 0 ? 0.5f : -0.5f));
     int whole = tscaled / 10;

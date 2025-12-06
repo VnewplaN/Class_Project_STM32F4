@@ -7,6 +7,8 @@
   "editor.gotoLocation.multipleDeclarations": "goto",
   "editor.multiCursorModifier": "alt",
   "files.associations": {
-    "*.h": "c"
-  }
+    "*.h": "c",
+    "cmath": "c"
+  },
+  "cortex-debug.variableUseNaturalFormat": true
 }

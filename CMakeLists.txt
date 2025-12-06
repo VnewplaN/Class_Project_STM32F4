@@ -48,6 +48,11 @@ target_sources(${CMAKE_PROJECT_NAME} PRIVATE
 )
 target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}/Core/Src/LCD_Show.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/Core/Src/DS18B20.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/Core/Src/File_handling_RTOS.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/Core/Src/fatfs_sd.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/Core/Src/ssd1306.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/Core/Src/fonts.c
 )
 
 # Add include paths
