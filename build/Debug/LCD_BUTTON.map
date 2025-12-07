@@ -19,7 +19,7 @@ C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.
 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-fwalk.o)
                               C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-findfp.o) (_fwalk_sglue)
 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-snprintf.o)
-                              CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj (snprintf)
+                              CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj (snprintf)
 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-sprintf.o)
                               CMakeFiles/LCD_BUTTON.dir/Core/Src/File_handling_RTOS.c.obj (sprintf)
 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-stdio.o)
@@ -4459,13 +4459,6 @@ Discarded input sections
  .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
  .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
  .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
- .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
- .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
- .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
- .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
- .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
- .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
- .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
  .text          0x00000000        0x0 CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
  .data          0x00000000        0x0 CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
  .bss           0x00000000        0x0 CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
@@ -4535,7 +4528,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x10 CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
  .debug_macro   0x00000000       0x58 CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
  .debug_macro   0x00000000      0x1e5 CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
- .debug_macro   0x00000000       0x16 CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
  .debug_macro   0x00000000       0x3c CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
  .debug_macro   0x00000000       0x20 CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
  .debug_macro   0x00000000       0x16 CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
@@ -5031,6 +5024,254 @@ Discarded input sections
  .text          0x00000000       0x14 CMakeFiles/LCD_BUTTON.dir/startup_stm32f401xe.s.obj
  .data          0x00000000        0x0 CMakeFiles/LCD_BUTTON.dir/startup_stm32f401xe.s.obj
  .bss           0x00000000        0x0 CMakeFiles/LCD_BUTTON.dir/startup_stm32f401xe.s.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .text          0x00000000        0x0 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .data          0x00000000        0x0 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000      0xad8 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000      0x2a1 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000       0x2e CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000       0x28 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000       0x8e CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000       0x51 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000      0x103 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000       0x6a CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000      0x1df CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000       0x1c CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000       0xfb CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000     0x1011 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000      0x11f CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000     0xb881 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000       0x6d CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000     0x3693 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000      0x190 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000       0x5c CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000      0x416 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000      0x9e9 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000      0x115 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000       0xf8 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000       0xa5 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000      0x15f CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000      0x287 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000       0x5f CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000      0x236 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000      0x132 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000      0x264 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000       0x2e CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000      0x1b5 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000       0xd6 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000      0x127 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000       0x85 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000       0x89 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000      0x225 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000      0x2aa CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000      0x126 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000       0x58 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000      0x169 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000      0x15a CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000       0xc9 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000       0x1c CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000       0x26 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000      0x4c5 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000       0xb5 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000       0xaa CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000       0x66 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000       0x74 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000       0xdd CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000       0xfa CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000       0xe2 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000       0x8e CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000       0x74 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000       0x2a CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000       0x3c CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000       0x34 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000      0x370 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000       0x4a CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000       0x34 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000       0x58 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000      0x1e5 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000       0x3c CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000       0x20 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000       0x1c CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000      0x170 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000       0x29 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00000000       0x1d CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .text          0x00000000        0x0 CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .data          0x00000000        0x0 CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .debug_macro   0x00000000      0xad8 CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .debug_macro   0x00000000      0x2a1 CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .debug_macro   0x00000000       0x2e CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .debug_macro   0x00000000       0x28 CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .debug_macro   0x00000000       0x8e CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .debug_macro   0x00000000       0x51 CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .debug_macro   0x00000000      0x103 CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .debug_macro   0x00000000       0x6a CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .debug_macro   0x00000000      0x1df CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .debug_macro   0x00000000       0x1c CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .debug_macro   0x00000000       0xfb CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .debug_macro   0x00000000     0x1011 CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .debug_macro   0x00000000      0x11f CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .debug_macro   0x00000000     0xb881 CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .debug_macro   0x00000000       0x6d CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .debug_macro   0x00000000     0x3693 CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .debug_macro   0x00000000      0x190 CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .debug_macro   0x00000000       0x5c CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .debug_macro   0x00000000      0x416 CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .debug_macro   0x00000000      0x9e9 CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .debug_macro   0x00000000      0x115 CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .debug_macro   0x00000000       0xf8 CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .debug_macro   0x00000000       0xa5 CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .debug_macro   0x00000000      0x15f CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .debug_macro   0x00000000      0x287 CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .debug_macro   0x00000000       0x5f CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .debug_macro   0x00000000      0x236 CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .debug_macro   0x00000000      0x132 CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .debug_macro   0x00000000      0x264 CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .debug_macro   0x00000000       0x2e CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .debug_macro   0x00000000      0x1b5 CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .debug_macro   0x00000000       0xd6 CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .debug_macro   0x00000000      0x127 CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .debug_macro   0x00000000       0x85 CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .debug_macro   0x00000000       0x89 CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .debug_macro   0x00000000      0x225 CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .debug_macro   0x00000000      0x2aa CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .debug_macro   0x00000000      0x126 CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .debug_macro   0x00000000       0x58 CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
  .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/LCD_Show.c.obj
  .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/LCD_Show.c.obj
  .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/LCD_Show.c.obj
@@ -5163,7 +5404,6 @@ Discarded input sections
  .debug_macro   0x00000000       0x1c CMakeFiles/LCD_BUTTON.dir/Core/Src/LCD_Show.c.obj
  .debug_macro   0x00000000       0x16 CMakeFiles/LCD_BUTTON.dir/Core/Src/LCD_Show.c.obj
  .debug_macro   0x00000000      0x170 CMakeFiles/LCD_BUTTON.dir/Core/Src/LCD_Show.c.obj
- .debug_macro   0x00000000      0x19b CMakeFiles/LCD_BUTTON.dir/Core/Src/LCD_Show.c.obj
  .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/DS18B20.c.obj
  .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/DS18B20.c.obj
  .group         0x00000000        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/DS18B20.c.obj
@@ -6277,6 +6517,8 @@ LOAD CMakeFiles/LCD_BUTTON.dir/Core/Src/stm32f4xx_hal_msp.c.obj
 LOAD CMakeFiles/LCD_BUTTON.dir/Core/Src/sysmem.c.obj
 LOAD CMakeFiles/LCD_BUTTON.dir/Core/Src/syscalls.c.obj
 LOAD CMakeFiles/LCD_BUTTON.dir/startup_stm32f401xe.s.obj
+LOAD CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+LOAD CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
 LOAD CMakeFiles/LCD_BUTTON.dir/Core/Src/LCD_Show.c.obj
 LOAD CMakeFiles/LCD_BUTTON.dir/Core/Src/DS18B20.c.obj
 LOAD CMakeFiles/LCD_BUTTON.dir/Core/Src/File_handling_RTOS.c.obj
@@ -6306,7 +6548,7 @@ LOAD C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
                 0x08000000                g_pfnVectors
                 0x08000194                        . = ALIGN (0x4)
 
-.text           0x080001a0     0xb678
+.text           0x080001a0     0xb688
                 0x080001a0                        . = ALIGN (0x4)
  *(.text)
  .text          0x080001a0       0x40 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
@@ -6830,378 +7072,385 @@ LOAD C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
  .text.USER_ioctl
                 0x08009420       0xa0 CMakeFiles/LCD_BUTTON.dir/FATFS/Target/user_diskio.c.obj
                 0x08009420                USER_ioctl
- .text.main     0x080094c0       0xa8 CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
+ .text.main     0x080094c0       0x24 CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
                 0x080094c0                main
- .text.format_temperature
-                0x08009568       0x24 CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
- .text.StartDefaultTask
-                0x0800958c      0x114 CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
-                0x0800958c                StartDefaultTask
- .text.StartButtonTask
-                0x080096a0       0x88 CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
-                0x080096a0                StartButtonTask
- .text.StartSdcardTask
-                0x08009728       0xcc CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
-                0x08009728                StartSdcardTask
- .text.SystemClock_Config
-                0x080097f4       0xd8 CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
-                0x080097f4                SystemClock_Config
- .text.MX_I2C1_Init
-                0x080098cc      0x1b8 CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
- .text.MX_USART2_UART_Init
-                0x08009a84      0x110 CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
- .text.MX_GPIO_Init
-                0x08009b94      0x154 CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
- .text.MX_SPI2_Init
-                0x08009ce8       0x94 CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
  .text.Error_Handler
-                0x08009d7c        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
-                0x08009d7c                Error_Handler
+                0x080094e4        0xc CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
+                0x080094e4                Error_Handler
  .text.NMI_Handler
-                0x08009d88        0x8 CMakeFiles/LCD_BUTTON.dir/Core/Src/stm32f4xx_it.c.obj
-                0x08009d88                NMI_Handler
+                0x080094f0        0x8 CMakeFiles/LCD_BUTTON.dir/Core/Src/stm32f4xx_it.c.obj
+                0x080094f0                NMI_Handler
  .text.HardFault_Handler
-                0x08009d90        0x8 CMakeFiles/LCD_BUTTON.dir/Core/Src/stm32f4xx_it.c.obj
-                0x08009d90                HardFault_Handler
+                0x080094f8        0x8 CMakeFiles/LCD_BUTTON.dir/Core/Src/stm32f4xx_it.c.obj
+                0x080094f8                HardFault_Handler
  .text.MemManage_Handler
-                0x08009d98        0x8 CMakeFiles/LCD_BUTTON.dir/Core/Src/stm32f4xx_it.c.obj
-                0x08009d98                MemManage_Handler
+                0x08009500        0x8 CMakeFiles/LCD_BUTTON.dir/Core/Src/stm32f4xx_it.c.obj
+                0x08009500                MemManage_Handler
  .text.BusFault_Handler
-                0x08009da0        0x8 CMakeFiles/LCD_BUTTON.dir/Core/Src/stm32f4xx_it.c.obj
-                0x08009da0                BusFault_Handler
+                0x08009508        0x8 CMakeFiles/LCD_BUTTON.dir/Core/Src/stm32f4xx_it.c.obj
+                0x08009508                BusFault_Handler
  .text.UsageFault_Handler
-                0x08009da8        0x8 CMakeFiles/LCD_BUTTON.dir/Core/Src/stm32f4xx_it.c.obj
-                0x08009da8                UsageFault_Handler
+                0x08009510        0x8 CMakeFiles/LCD_BUTTON.dir/Core/Src/stm32f4xx_it.c.obj
+                0x08009510                UsageFault_Handler
  .text.DebugMon_Handler
-                0x08009db0        0xe CMakeFiles/LCD_BUTTON.dir/Core/Src/stm32f4xx_it.c.obj
-                0x08009db0                DebugMon_Handler
+                0x08009518        0xe CMakeFiles/LCD_BUTTON.dir/Core/Src/stm32f4xx_it.c.obj
+                0x08009518                DebugMon_Handler
  .text.SysTick_Handler
-                0x08009dbe       0x1a CMakeFiles/LCD_BUTTON.dir/Core/Src/stm32f4xx_it.c.obj
-                0x08009dbe                SysTick_Handler
+                0x08009526       0x1a CMakeFiles/LCD_BUTTON.dir/Core/Src/stm32f4xx_it.c.obj
+                0x08009526                SysTick_Handler
  .text.HAL_MspInit
-                0x08009dd8       0x58 CMakeFiles/LCD_BUTTON.dir/Core/Src/stm32f4xx_hal_msp.c.obj
-                0x08009dd8                HAL_MspInit
+                0x08009540       0x58 CMakeFiles/LCD_BUTTON.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+                0x08009540                HAL_MspInit
  .text.HAL_SPI_MspInit
-                0x08009e30       0xd0 CMakeFiles/LCD_BUTTON.dir/Core/Src/stm32f4xx_hal_msp.c.obj
-                0x08009e30                HAL_SPI_MspInit
- .text._sbrk    0x08009f00       0x6c CMakeFiles/LCD_BUTTON.dir/Core/Src/sysmem.c.obj
-                0x08009f00                _sbrk
+                0x08009598       0xd0 CMakeFiles/LCD_BUTTON.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+                0x08009598                HAL_SPI_MspInit
+ .text._sbrk    0x08009668       0x6c CMakeFiles/LCD_BUTTON.dir/Core/Src/sysmem.c.obj
+                0x08009668                _sbrk
  .text.Reset_Handler
-                0x08009f6c       0x50 CMakeFiles/LCD_BUTTON.dir/startup_stm32f401xe.s.obj
-                0x08009f6c                Reset_Handler
+                0x080096d4       0x50 CMakeFiles/LCD_BUTTON.dir/startup_stm32f401xe.s.obj
+                0x080096d4                Reset_Handler
  .text.Default_Handler
-                0x08009fbc        0x2 CMakeFiles/LCD_BUTTON.dir/startup_stm32f401xe.s.obj
-                0x08009fbc                RTC_Alarm_IRQHandler
-                0x08009fbc                EXTI2_IRQHandler
-                0x08009fbc                SPI4_IRQHandler
-                0x08009fbc                TIM1_CC_IRQHandler
-                0x08009fbc                DMA2_Stream5_IRQHandler
-                0x08009fbc                DMA1_Stream5_IRQHandler
-                0x08009fbc                PVD_IRQHandler
-                0x08009fbc                SDIO_IRQHandler
-                0x08009fbc                TAMP_STAMP_IRQHandler
-                0x08009fbc                EXTI3_IRQHandler
-                0x08009fbc                TIM1_UP_TIM10_IRQHandler
-                0x08009fbc                I2C3_ER_IRQHandler
-                0x08009fbc                EXTI0_IRQHandler
-                0x08009fbc                I2C2_EV_IRQHandler
-                0x08009fbc                DMA1_Stream2_IRQHandler
-                0x08009fbc                FPU_IRQHandler
-                0x08009fbc                DMA2_Stream2_IRQHandler
-                0x08009fbc                SPI1_IRQHandler
-                0x08009fbc                TIM1_BRK_TIM9_IRQHandler
-                0x08009fbc                DMA2_Stream3_IRQHandler
-                0x08009fbc                USART6_IRQHandler
-                0x08009fbc                DMA2_Stream0_IRQHandler
-                0x08009fbc                TIM4_IRQHandler
-                0x08009fbc                I2C1_EV_IRQHandler
-                0x08009fbc                DMA1_Stream6_IRQHandler
-                0x08009fbc                DMA1_Stream1_IRQHandler
-                0x08009fbc                TIM3_IRQHandler
-                0x08009fbc                RCC_IRQHandler
-                0x08009fbc                Default_Handler
-                0x08009fbc                EXTI15_10_IRQHandler
-                0x08009fbc                ADC_IRQHandler
-                0x08009fbc                DMA1_Stream7_IRQHandler
-                0x08009fbc                TIM5_IRQHandler
-                0x08009fbc                DMA2_Stream7_IRQHandler
-                0x08009fbc                I2C3_EV_IRQHandler
-                0x08009fbc                EXTI9_5_IRQHandler
-                0x08009fbc                RTC_WKUP_IRQHandler
-                0x08009fbc                SPI2_IRQHandler
-                0x08009fbc                DMA1_Stream0_IRQHandler
-                0x08009fbc                EXTI4_IRQHandler
-                0x08009fbc                WWDG_IRQHandler
-                0x08009fbc                TIM2_IRQHandler
-                0x08009fbc                OTG_FS_WKUP_IRQHandler
-                0x08009fbc                TIM1_TRG_COM_TIM11_IRQHandler
-                0x08009fbc                EXTI1_IRQHandler
-                0x08009fbc                USART2_IRQHandler
-                0x08009fbc                I2C2_ER_IRQHandler
-                0x08009fbc                DMA2_Stream1_IRQHandler
-                0x08009fbc                FLASH_IRQHandler
-                0x08009fbc                DMA2_Stream4_IRQHandler
-                0x08009fbc                USART1_IRQHandler
-                0x08009fbc                OTG_FS_IRQHandler
-                0x08009fbc                SPI3_IRQHandler
-                0x08009fbc                DMA1_Stream4_IRQHandler
-                0x08009fbc                I2C1_ER_IRQHandler
-                0x08009fbc                DMA2_Stream6_IRQHandler
-                0x08009fbc                DMA1_Stream3_IRQHandler
- *fill*         0x08009fbe        0x2 
+                0x08009724        0x2 CMakeFiles/LCD_BUTTON.dir/startup_stm32f401xe.s.obj
+                0x08009724                RTC_Alarm_IRQHandler
+                0x08009724                EXTI2_IRQHandler
+                0x08009724                SPI4_IRQHandler
+                0x08009724                TIM1_CC_IRQHandler
+                0x08009724                DMA2_Stream5_IRQHandler
+                0x08009724                DMA1_Stream5_IRQHandler
+                0x08009724                PVD_IRQHandler
+                0x08009724                SDIO_IRQHandler
+                0x08009724                TAMP_STAMP_IRQHandler
+                0x08009724                EXTI3_IRQHandler
+                0x08009724                TIM1_UP_TIM10_IRQHandler
+                0x08009724                I2C3_ER_IRQHandler
+                0x08009724                EXTI0_IRQHandler
+                0x08009724                I2C2_EV_IRQHandler
+                0x08009724                DMA1_Stream2_IRQHandler
+                0x08009724                FPU_IRQHandler
+                0x08009724                DMA2_Stream2_IRQHandler
+                0x08009724                SPI1_IRQHandler
+                0x08009724                TIM1_BRK_TIM9_IRQHandler
+                0x08009724                DMA2_Stream3_IRQHandler
+                0x08009724                USART6_IRQHandler
+                0x08009724                DMA2_Stream0_IRQHandler
+                0x08009724                TIM4_IRQHandler
+                0x08009724                I2C1_EV_IRQHandler
+                0x08009724                DMA1_Stream6_IRQHandler
+                0x08009724                DMA1_Stream1_IRQHandler
+                0x08009724                TIM3_IRQHandler
+                0x08009724                RCC_IRQHandler
+                0x08009724                Default_Handler
+                0x08009724                EXTI15_10_IRQHandler
+                0x08009724                ADC_IRQHandler
+                0x08009724                DMA1_Stream7_IRQHandler
+                0x08009724                TIM5_IRQHandler
+                0x08009724                DMA2_Stream7_IRQHandler
+                0x08009724                I2C3_EV_IRQHandler
+                0x08009724                EXTI9_5_IRQHandler
+                0x08009724                RTC_WKUP_IRQHandler
+                0x08009724                SPI2_IRQHandler
+                0x08009724                DMA1_Stream0_IRQHandler
+                0x08009724                EXTI4_IRQHandler
+                0x08009724                WWDG_IRQHandler
+                0x08009724                TIM2_IRQHandler
+                0x08009724                OTG_FS_WKUP_IRQHandler
+                0x08009724                TIM1_TRG_COM_TIM11_IRQHandler
+                0x08009724                EXTI1_IRQHandler
+                0x08009724                USART2_IRQHandler
+                0x08009724                I2C2_ER_IRQHandler
+                0x08009724                DMA2_Stream1_IRQHandler
+                0x08009724                FLASH_IRQHandler
+                0x08009724                DMA2_Stream4_IRQHandler
+                0x08009724                USART1_IRQHandler
+                0x08009724                OTG_FS_IRQHandler
+                0x08009724                SPI3_IRQHandler
+                0x08009724                DMA1_Stream4_IRQHandler
+                0x08009724                I2C1_ER_IRQHandler
+                0x08009724                DMA2_Stream6_IRQHandler
+                0x08009724                DMA1_Stream3_IRQHandler
+ *fill*         0x08009726        0x2 
+ .text.format_temperature
+                0x08009728       0x24 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .text.App_CreateTasks
+                0x0800974c       0x74 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+                0x0800974c                App_CreateTasks
+ .text.StartDefaultTask
+                0x080097c0      0x114 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .text.StartButtonTask
+                0x080098d4       0x88 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .text.StartSdcardTask
+                0x0800995c       0xcc CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .text.BSP_Init
+                0x08009a28       0x20 CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+                0x08009a28                BSP_Init
+ .text.SystemClock_Config
+                0x08009a48       0xd8 CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+                0x08009a48                SystemClock_Config
+ .text.MX_I2C1_Init
+                0x08009b20      0x1b8 CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+                0x08009b20                MX_I2C1_Init
+ .text.MX_USART2_UART_Init
+                0x08009cd8      0x110 CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+                0x08009cd8                MX_USART2_UART_Init
+ .text.MX_GPIO_Init
+                0x08009de8      0x154 CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+                0x08009de8                MX_GPIO_Init
+ .text.MX_SPI2_Init
+                0x08009f3c       0x94 CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+                0x08009f3c                MX_SPI2_Init
  .text.Savings_Show
-                0x08009fc0       0x40 CMakeFiles/LCD_BUTTON.dir/Core/Src/LCD_Show.c.obj
-                0x08009fc0                Savings_Show
+                0x08009fd0       0x40 CMakeFiles/LCD_BUTTON.dir/Core/Src/LCD_Show.c.obj
+                0x08009fd0                Savings_Show
  .text.Temperature_Show
-                0x0800a000       0xf8 CMakeFiles/LCD_BUTTON.dir/Core/Src/LCD_Show.c.obj
-                0x0800a000                Temperature_Show
+                0x0800a010       0xf8 CMakeFiles/LCD_BUTTON.dir/Core/Src/LCD_Show.c.obj
+                0x0800a010                Temperature_Show
  .text.DS18B20_Init
-                0x0800a0f8       0x60 CMakeFiles/LCD_BUTTON.dir/Core/Src/DS18B20.c.obj
-                0x0800a0f8                DS18B20_Init
+                0x0800a108       0x60 CMakeFiles/LCD_BUTTON.dir/Core/Src/DS18B20.c.obj
+                0x0800a108                DS18B20_Init
  .text.DS18B20_ReadTemperature
-                0x0800a158       0xa0 CMakeFiles/LCD_BUTTON.dir/Core/Src/DS18B20.c.obj
-                0x0800a158                DS18B20_ReadTemperature
+                0x0800a168       0xa0 CMakeFiles/LCD_BUTTON.dir/Core/Src/DS18B20.c.obj
+                0x0800a168                DS18B20_ReadTemperature
  .text.DWT_Delay_Init
-                0x0800a1f8       0x34 CMakeFiles/LCD_BUTTON.dir/Core/Src/DS18B20.c.obj
+                0x0800a208       0x34 CMakeFiles/LCD_BUTTON.dir/Core/Src/DS18B20.c.obj
  .text.delay_us
-                0x0800a22c       0x4c CMakeFiles/LCD_BUTTON.dir/Core/Src/DS18B20.c.obj
+                0x0800a23c       0x4c CMakeFiles/LCD_BUTTON.dir/Core/Src/DS18B20.c.obj
  .text.DS18B20_PinOutput
-                0x0800a278       0x2c CMakeFiles/LCD_BUTTON.dir/Core/Src/DS18B20.c.obj
+                0x0800a288       0x2c CMakeFiles/LCD_BUTTON.dir/Core/Src/DS18B20.c.obj
  .text.DS18B20_PinInput
-                0x0800a2a4       0x20 CMakeFiles/LCD_BUTTON.dir/Core/Src/DS18B20.c.obj
+                0x0800a2b4       0x20 CMakeFiles/LCD_BUTTON.dir/Core/Src/DS18B20.c.obj
  .text.OneWire_Reset
-                0x0800a2c4       0x54 CMakeFiles/LCD_BUTTON.dir/Core/Src/DS18B20.c.obj
+                0x0800a2d4       0x54 CMakeFiles/LCD_BUTTON.dir/Core/Src/DS18B20.c.obj
  .text.OneWire_WriteBit
-                0x0800a318       0x4c CMakeFiles/LCD_BUTTON.dir/Core/Src/DS18B20.c.obj
+                0x0800a328       0x4c CMakeFiles/LCD_BUTTON.dir/Core/Src/DS18B20.c.obj
  .text.OneWire_ReadBit
-                0x0800a364       0x44 CMakeFiles/LCD_BUTTON.dir/Core/Src/DS18B20.c.obj
+                0x0800a374       0x44 CMakeFiles/LCD_BUTTON.dir/Core/Src/DS18B20.c.obj
  .text.OneWire_WriteByte
-                0x0800a3a8       0x3a CMakeFiles/LCD_BUTTON.dir/Core/Src/DS18B20.c.obj
+                0x0800a3b8       0x3a CMakeFiles/LCD_BUTTON.dir/Core/Src/DS18B20.c.obj
  .text.OneWire_ReadByte
-                0x0800a3e2       0x3e CMakeFiles/LCD_BUTTON.dir/Core/Src/DS18B20.c.obj
+                0x0800a3f2       0x3e CMakeFiles/LCD_BUTTON.dir/Core/Src/DS18B20.c.obj
  .text.Send_Uart
-                0x0800a420       0x2c CMakeFiles/LCD_BUTTON.dir/Core/Src/File_handling_RTOS.c.obj
-                0x0800a420                Send_Uart
+                0x0800a430       0x2c CMakeFiles/LCD_BUTTON.dir/Core/Src/File_handling_RTOS.c.obj
+                0x0800a430                Send_Uart
  .text.Mount_SD
-                0x0800a44c       0x48 CMakeFiles/LCD_BUTTON.dir/Core/Src/File_handling_RTOS.c.obj
-                0x0800a44c                Mount_SD
+                0x0800a45c       0x48 CMakeFiles/LCD_BUTTON.dir/Core/Src/File_handling_RTOS.c.obj
+                0x0800a45c                Mount_SD
  .text.Unmount_SD
-                0x0800a494       0x44 CMakeFiles/LCD_BUTTON.dir/Core/Src/File_handling_RTOS.c.obj
-                0x0800a494                Unmount_SD
+                0x0800a4a4       0x44 CMakeFiles/LCD_BUTTON.dir/Core/Src/File_handling_RTOS.c.obj
+                0x0800a4a4                Unmount_SD
  .text.Create_File
-                0x0800a4d8      0x12c CMakeFiles/LCD_BUTTON.dir/Core/Src/File_handling_RTOS.c.obj
-                0x0800a4d8                Create_File
+                0x0800a4e8      0x12c CMakeFiles/LCD_BUTTON.dir/Core/Src/File_handling_RTOS.c.obj
+                0x0800a4e8                Create_File
  .text.Update_File
-                0x0800a604      0x180 CMakeFiles/LCD_BUTTON.dir/Core/Src/File_handling_RTOS.c.obj
-                0x0800a604                Update_File
+                0x0800a614      0x180 CMakeFiles/LCD_BUTTON.dir/Core/Src/File_handling_RTOS.c.obj
+                0x0800a614                Update_File
  .text.SSD1306_Init
-                0x0800a784      0x298 CMakeFiles/LCD_BUTTON.dir/Core/Src/ssd1306.c.obj
-                0x0800a784                SSD1306_Init
+                0x0800a794      0x298 CMakeFiles/LCD_BUTTON.dir/Core/Src/ssd1306.c.obj
+                0x0800a794                SSD1306_Init
  .text.SSD1306_UpdateScreen
-                0x0800aa1c       0x7c CMakeFiles/LCD_BUTTON.dir/Core/Src/ssd1306.c.obj
-                0x0800aa1c                SSD1306_UpdateScreen
+                0x0800aa2c       0x7c CMakeFiles/LCD_BUTTON.dir/Core/Src/ssd1306.c.obj
+                0x0800aa2c                SSD1306_UpdateScreen
  .text.SSD1306_Fill
-                0x0800aa98       0x30 CMakeFiles/LCD_BUTTON.dir/Core/Src/ssd1306.c.obj
-                0x0800aa98                SSD1306_Fill
+                0x0800aaa8       0x30 CMakeFiles/LCD_BUTTON.dir/Core/Src/ssd1306.c.obj
+                0x0800aaa8                SSD1306_Fill
  .text.SSD1306_DrawPixel
-                0x0800aac8       0xd4 CMakeFiles/LCD_BUTTON.dir/Core/Src/ssd1306.c.obj
-                0x0800aac8                SSD1306_DrawPixel
+                0x0800aad8       0xd4 CMakeFiles/LCD_BUTTON.dir/Core/Src/ssd1306.c.obj
+                0x0800aad8                SSD1306_DrawPixel
  .text.SSD1306_GotoXY
-                0x0800ab9c       0x2c CMakeFiles/LCD_BUTTON.dir/Core/Src/ssd1306.c.obj
-                0x0800ab9c                SSD1306_GotoXY
+                0x0800abac       0x2c CMakeFiles/LCD_BUTTON.dir/Core/Src/ssd1306.c.obj
+                0x0800abac                SSD1306_GotoXY
  .text.SSD1306_Putc
-                0x0800abc8       0xfc CMakeFiles/LCD_BUTTON.dir/Core/Src/ssd1306.c.obj
-                0x0800abc8                SSD1306_Putc
+                0x0800abd8       0xfc CMakeFiles/LCD_BUTTON.dir/Core/Src/ssd1306.c.obj
+                0x0800abd8                SSD1306_Putc
  .text.SSD1306_Puts
-                0x0800acc4       0x4a CMakeFiles/LCD_BUTTON.dir/Core/Src/ssd1306.c.obj
-                0x0800acc4                SSD1306_Puts
+                0x0800acd4       0x4a CMakeFiles/LCD_BUTTON.dir/Core/Src/ssd1306.c.obj
+                0x0800acd4                SSD1306_Puts
  .text.SSD1306_Clear
-                0x0800ad0e       0x12 CMakeFiles/LCD_BUTTON.dir/Core/Src/ssd1306.c.obj
-                0x0800ad0e                SSD1306_Clear
+                0x0800ad1e       0x12 CMakeFiles/LCD_BUTTON.dir/Core/Src/ssd1306.c.obj
+                0x0800ad1e                SSD1306_Clear
  .text.ssd1306_I2C_Init
-                0x0800ad20       0x2c CMakeFiles/LCD_BUTTON.dir/Core/Src/ssd1306.c.obj
-                0x0800ad20                ssd1306_I2C_Init
+                0x0800ad30       0x2c CMakeFiles/LCD_BUTTON.dir/Core/Src/ssd1306.c.obj
+                0x0800ad30                ssd1306_I2C_Init
  .text.ssd1306_I2C_WriteMulti
-                0x0800ad4c       0xcc CMakeFiles/LCD_BUTTON.dir/Core/Src/ssd1306.c.obj
-                0x0800ad4c                ssd1306_I2C_WriteMulti
+                0x0800ad5c       0xcc CMakeFiles/LCD_BUTTON.dir/Core/Src/ssd1306.c.obj
+                0x0800ad5c                ssd1306_I2C_WriteMulti
  .text.ssd1306_I2C_Write
-                0x0800ae18       0x3c CMakeFiles/LCD_BUTTON.dir/Core/Src/ssd1306.c.obj
-                0x0800ae18                ssd1306_I2C_Write
+                0x0800ae28       0x3c CMakeFiles/LCD_BUTTON.dir/Core/Src/ssd1306.c.obj
+                0x0800ae28                ssd1306_I2C_Write
  .text.snprintf
-                0x0800ae54       0x6c C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-snprintf.o)
-                0x0800ae54                sniprintf
-                0x0800ae54                snprintf
- .text.sprintf  0x0800aec0       0x44 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-sprintf.o)
-                0x0800aec0                siprintf
-                0x0800aec0                sprintf
- .text.memset   0x0800af04       0x10 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memset.o)
-                0x0800af04                memset
- .text.__errno  0x0800af14        0xc C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-errno.o)
-                0x0800af14                __errno
+                0x0800ae64       0x6c C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-snprintf.o)
+                0x0800ae64                sniprintf
+                0x0800ae64                snprintf
+ .text.sprintf  0x0800aed0       0x44 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-sprintf.o)
+                0x0800aed0                siprintf
+                0x0800aed0                sprintf
+ .text.memset   0x0800af14       0x10 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memset.o)
+                0x0800af14                memset
+ .text.__errno  0x0800af24        0xc C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-errno.o)
+                0x0800af24                __errno
  .text.__libc_init_array
-                0x0800af20       0x48 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-init.o)
-                0x0800af20                __libc_init_array
+                0x0800af30       0x48 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-init.o)
+                0x0800af30                __libc_init_array
  .text.__retarget_lock_acquire_recursive
-                0x0800af68        0x2 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-lock.o)
-                0x0800af68                __retarget_lock_acquire_recursive
+                0x0800af78        0x2 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-lock.o)
+                0x0800af78                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x0800af6a        0x2 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-lock.o)
-                0x0800af6a                __retarget_lock_release_recursive
- .text.memcpy   0x0800af6c       0x1c C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memcpy-stub.o)
-                0x0800af6c                memcpy
- .text._free_r  0x0800af88       0x94 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-freer.o)
-                0x0800af88                _free_r
+                0x0800af7a        0x2 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-lock.o)
+                0x0800af7a                __retarget_lock_release_recursive
+ .text.memcpy   0x0800af7c       0x1c C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memcpy-stub.o)
+                0x0800af7c                memcpy
+ .text._free_r  0x0800af98       0x94 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-freer.o)
+                0x0800af98                _free_r
  .text.sbrk_aligned
-                0x0800b01c       0x44 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-mallocr.o)
+                0x0800b02c       0x44 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-mallocr.o)
  .text._malloc_r
-                0x0800b060      0x100 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-mallocr.o)
-                0x0800b060                _malloc_r
+                0x0800b070      0x100 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-mallocr.o)
+                0x0800b070                _malloc_r
  .text.__malloc_lock
-                0x0800b160        0xc C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-mlock.o)
-                0x0800b160                __malloc_lock
+                0x0800b170        0xc C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-mlock.o)
+                0x0800b170                __malloc_lock
  .text.__malloc_unlock
-                0x0800b16c        0xc C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-mlock.o)
-                0x0800b16c                __malloc_unlock
+                0x0800b17c        0xc C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-mlock.o)
+                0x0800b17c                __malloc_unlock
  .text.__ssputs_r
-                0x0800b178       0xb6 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-svfprintf.o)
-                0x0800b178                __ssputs_r
- *fill*         0x0800b22e        0x2 
+                0x0800b188       0xb6 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-svfprintf.o)
+                0x0800b188                __ssputs_r
+ *fill*         0x0800b23e        0x2 
  .text._svfprintf_r
-                0x0800b230      0x1f8 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-svfprintf.o)
-                0x0800b230                _svfiprintf_r
-                0x0800b230                _svfprintf_r
+                0x0800b240      0x1f8 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-svfprintf.o)
+                0x0800b240                _svfiprintf_r
+                0x0800b240                _svfprintf_r
  .text._printf_common
-                0x0800b428       0xda C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf_i.o)
-                0x0800b428                _printf_common
- *fill*         0x0800b502        0x2 
+                0x0800b438       0xda C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf_i.o)
+                0x0800b438                _printf_common
+ *fill*         0x0800b512        0x2 
  .text._printf_i
-                0x0800b504      0x23c C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf_i.o)
-                0x0800b504                _printf_i
- .text.memmove  0x0800b740       0x34 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memmove.o)
-                0x0800b740                memmove
- .text._sbrk_r  0x0800b774       0x20 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-sbrkr.o)
-                0x0800b774                _sbrk_r
+                0x0800b514      0x23c C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf_i.o)
+                0x0800b514                _printf_i
+ .text.memmove  0x0800b750       0x34 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memmove.o)
+                0x0800b750                memmove
+ .text._sbrk_r  0x0800b784       0x20 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-sbrkr.o)
+                0x0800b784                _sbrk_r
  .text._realloc_r
-                0x0800b794       0x5c C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-reallocr.o)
-                0x0800b794                _realloc_r
+                0x0800b7a4       0x5c C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-reallocr.o)
+                0x0800b7a4                _realloc_r
  .text._malloc_usable_size_r
-                0x0800b7f0       0x10 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-msizer.o)
-                0x0800b7f0                _malloc_usable_size_r
+                0x0800b800       0x10 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-msizer.o)
+                0x0800b800                _malloc_usable_size_r
  *(.glue_7)
- .glue_7        0x0800b800        0x0 linker stubs
+ .glue_7        0x0800b810        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x0800b800        0x0 linker stubs
+ .glue_7t       0x0800b810        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x0800b800        0x0 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .eh_frame      0x0800b810        0x0 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
  *(.init)
- .init          0x0800b800        0x4 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crti.o
-                0x0800b800                _init
- .init          0x0800b804        0x8 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtn.o
+ .init          0x0800b810        0x4 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x0800b810                _init
+ .init          0x0800b814        0x8 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtn.o
  *(.fini)
- .fini          0x0800b80c        0x4 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crti.o
-                0x0800b80c                _fini
- .fini          0x0800b810        0x8 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtn.o
-                0x0800b818                        . = ALIGN (0x4)
-                0x0800b818                        _etext = .
+ .fini          0x0800b81c        0x4 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x0800b81c                _fini
+ .fini          0x0800b820        0x8 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtn.o
+                0x0800b828                        . = ALIGN (0x4)
+                0x0800b828                        _etext = .
 
-.vfp11_veneer   0x0800b818        0x0
- .vfp11_veneer  0x0800b818        0x0 linker stubs
+.vfp11_veneer   0x0800b828        0x0
+ .vfp11_veneer  0x0800b828        0x0 linker stubs
 
-.v4_bx          0x0800b818        0x0
- .v4_bx         0x0800b818        0x0 linker stubs
+.v4_bx          0x0800b828        0x0
+ .v4_bx         0x0800b828        0x0 linker stubs
 
-.iplt           0x0800b818        0x0
- .iplt          0x0800b818        0x0 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+.iplt           0x0800b828        0x0
+ .iplt          0x0800b828        0x0 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.rodata         0x0800b818     0x1e50
-                0x0800b818                        . = ALIGN (0x4)
+.rodata         0x0800b828     0x1e50
+                0x0800b828                        . = ALIGN (0x4)
  *(.rodata)
- .rodata        0x0800b818        0x5 cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
- *fill*         0x0800b81d        0x3 
- .rodata        0x0800b820        0xd cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
+ .rodata        0x0800b828        0x5 cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
  *fill*         0x0800b82d        0x3 
- .rodata        0x0800b830       0x48 cmake/stm32cubemx/CMakeFiles/FatFs.dir/__/__/Middlewares/Third_Party/FatFs/src/ff.c.obj
- .rodata        0x0800b878       0x51 CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
- *fill*         0x0800b8c9        0x3 
- .rodata        0x0800b8cc       0x34 CMakeFiles/LCD_BUTTON.dir/Core/Src/LCD_Show.c.obj
- .rodata        0x0800b900      0x416 CMakeFiles/LCD_BUTTON.dir/Core/Src/File_handling_RTOS.c.obj
- *fill*         0x0800bd16        0x2 
- .rodata        0x0800bd18        0x4 CMakeFiles/LCD_BUTTON.dir/Core/Src/ssd1306.c.obj
+ .rodata        0x0800b830        0xd cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
+ *fill*         0x0800b83d        0x3 
+ .rodata        0x0800b840       0x48 cmake/stm32cubemx/CMakeFiles/FatFs.dir/__/__/Middlewares/Third_Party/FatFs/src/ff.c.obj
+ .rodata        0x0800b888       0x53 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ *fill*         0x0800b8db        0x1 
+ .rodata        0x0800b8dc       0x34 CMakeFiles/LCD_BUTTON.dir/Core/Src/LCD_Show.c.obj
+ .rodata        0x0800b910      0x416 CMakeFiles/LCD_BUTTON.dir/Core/Src/File_handling_RTOS.c.obj
+ *fill*         0x0800bd26        0x2 
+ .rodata        0x0800bd28        0x4 CMakeFiles/LCD_BUTTON.dir/Core/Src/ssd1306.c.obj
  *(.rodata*)
  .rodata.AHBPrescTable
-                0x0800bd1c       0x10 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f4xx.c.obj
-                0x0800bd1c                AHBPrescTable
- .rodata.ExCvt  0x0800bd2c       0x80 cmake/stm32cubemx/CMakeFiles/FatFs.dir/__/__/Middlewares/Third_Party/FatFs/src/ff.c.obj
+                0x0800bd2c       0x10 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f4xx.c.obj
+                0x0800bd2c                AHBPrescTable
+ .rodata.ExCvt  0x0800bd3c       0x80 cmake/stm32cubemx/CMakeFiles/FatFs.dir/__/__/Middlewares/Third_Party/FatFs/src/ff.c.obj
  .rodata.LfnOfs
-                0x0800bdac        0xd cmake/stm32cubemx/CMakeFiles/FatFs.dir/__/__/Middlewares/Third_Party/FatFs/src/ff.c.obj
- *fill*         0x0800bdb9        0x3 
- .rodata.Tbl    0x0800bdbc      0x100 cmake/stm32cubemx/CMakeFiles/FatFs.dir/__/__/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.obj
+                0x0800bdbc        0xd cmake/stm32cubemx/CMakeFiles/FatFs.dir/__/__/Middlewares/Third_Party/FatFs/src/ff.c.obj
+ *fill*         0x0800bdc9        0x3 
+ .rodata.Tbl    0x0800bdcc      0x100 cmake/stm32cubemx/CMakeFiles/FatFs.dir/__/__/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.obj
  .rodata.cvt1.1
-                0x0800bebc      0x1f2 cmake/stm32cubemx/CMakeFiles/FatFs.dir/__/__/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.obj
- *fill*         0x0800c0ae        0x2 
+                0x0800becc      0x1f2 cmake/stm32cubemx/CMakeFiles/FatFs.dir/__/__/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.obj
+ *fill*         0x0800c0be        0x2 
  .rodata.cvt2.0
-                0x0800c0b0       0xbc cmake/stm32cubemx/CMakeFiles/FatFs.dir/__/__/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.obj
+                0x0800c0c0       0xbc cmake/stm32cubemx/CMakeFiles/FatFs.dir/__/__/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.obj
  .rodata.Font7x10
-                0x0800c16c      0x76c CMakeFiles/LCD_BUTTON.dir/Core/Src/fonts.c.obj
-                0x0800c16c                Font7x10
+                0x0800c17c      0x76c CMakeFiles/LCD_BUTTON.dir/Core/Src/fonts.c.obj
+                0x0800c17c                Font7x10
  .rodata.Font11x18
-                0x0800c8d8      0xd5c CMakeFiles/LCD_BUTTON.dir/Core/Src/fonts.c.obj
-                0x0800c8d8                Font11x18
+                0x0800c8e8      0xd5c CMakeFiles/LCD_BUTTON.dir/Core/Src/fonts.c.obj
+                0x0800c8e8                Font11x18
  .rodata._svfprintf_r.str1.1
-                0x0800d634       0x33 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-svfprintf.o)
+                0x0800d644       0x33 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-svfprintf.o)
                                  0x11 (size before relaxing)
  .rodata._printf_i.str1.1
-                0x0800d667       0x22 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf_i.o)
-                0x0800d68c                        . = ALIGN (0x4)
- *fill*         0x0800d667        0x1 
+                0x0800d677       0x22 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf_i.o)
+                0x0800d69c                        . = ALIGN (0x4)
+ *fill*         0x0800d677        0x1 
 
-.ARM.extab      0x0800d668        0x0
-                0x0800d668                        . = ALIGN (0x4)
+.ARM.extab      0x0800d678        0x0
+                0x0800d678                        . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0800d668                        . = ALIGN (0x4)
+                0x0800d678                        . = ALIGN (0x4)
 
-.ARM            0x0800d668        0x8
-                0x0800d668                        . = ALIGN (0x4)
-                0x0800d668                        __exidx_start = .
+.ARM            0x0800d678        0x8
+                0x0800d678                        . = ALIGN (0x4)
+                0x0800d678                        __exidx_start = .
  *(.ARM.exidx*)
- .ARM.exidx     0x0800d668        0x8 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a(_udivmoddi4.o)
- .ARM.exidx     0x0800d670        0x0 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-strlen.o)
+ .ARM.exidx     0x0800d678        0x8 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a(_udivmoddi4.o)
+ .ARM.exidx     0x0800d680        0x0 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-strlen.o)
                                   0x8 (size before relaxing)
- .ARM.exidx     0x0800d670        0x0 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memchr.o)
+ .ARM.exidx     0x0800d680        0x0 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memchr.o)
                                   0x8 (size before relaxing)
-                0x0800d670                        __exidx_end = .
-                0x0800d670                        . = ALIGN (0x4)
+                0x0800d680                        __exidx_end = .
+                0x0800d680                        . = ALIGN (0x4)
 
-.preinit_array  0x0800d670        0x0
-                0x0800d670                        . = ALIGN (0x4)
-                0x0800d670                        PROVIDE (__preinit_array_start = .)
+.preinit_array  0x0800d680        0x0
+                0x0800d680                        . = ALIGN (0x4)
+                0x0800d680                        PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x0800d670                        PROVIDE (__preinit_array_end = .)
-                0x0800d670                        . = ALIGN (0x4)
+                0x0800d680                        PROVIDE (__preinit_array_end = .)
+                0x0800d680                        . = ALIGN (0x4)
 
-.init_array     0x0800d670        0x4
-                0x0800d670                        . = ALIGN (0x4)
-                0x0800d670                        PROVIDE (__init_array_start = .)
+.init_array     0x0800d680        0x4
+                0x0800d680                        . = ALIGN (0x4)
+                0x0800d680                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x0800d670        0x4 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
-                0x0800d674                        PROVIDE (__init_array_end = .)
-                0x0800d674                        . = ALIGN (0x4)
+ .init_array    0x0800d680        0x4 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x0800d684                        PROVIDE (__init_array_end = .)
+                0x0800d684                        . = ALIGN (0x4)
 
-.fini_array     0x0800d674        0x4
-                0x0800d674                        . = ALIGN (0x4)
+.fini_array     0x0800d684        0x4
+                0x0800d684                        . = ALIGN (0x4)
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x0800d674        0x4 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .fini_array    0x0800d684        0x4 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x0800d678                        . = ALIGN (0x4)
-                0x0800d678                        _sidata = LOADADDR (.data)
+                0x0800d688                        . = ALIGN (0x4)
+                0x0800d688                        _sidata = LOADADDR (.data)
 
-.rel.dyn        0x0800d678        0x0
- .rel.iplt      0x0800d678        0x0 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+.rel.dyn        0x0800d688        0x0
+ .rel.iplt      0x0800d688        0x0 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.data           0x20000000       0x90 load address 0x0800d678
+.data           0x20000000       0x90 load address 0x0800d688
                 0x20000000                        . = ALIGN (0x4)
                 0x20000000                        _sdata = .
  *(.data)
@@ -7224,7 +7473,7 @@ LOAD C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
                 0x20000014       0x14 CMakeFiles/LCD_BUTTON.dir/FATFS/Target/user_diskio.c.obj
                 0x20000014                USER_Driver
  .data.first_run.0
-                0x20000028        0x4 CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
+                0x20000028        0x4 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
  .data.ssd1306_current_i2c_addr
                 0x2000002c        0x2 CMakeFiles/LCD_BUTTON.dir/Core/Src/ssd1306.c.obj
  *fill*         0x2000002e        0x2 
@@ -7244,10 +7493,10 @@ LOAD C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
  *(.RamFunc*)
                 0x20000090                        . = ALIGN (0x4)
 
-.igot.plt       0x20000090        0x0 load address 0x0800d708
+.igot.plt       0x20000090        0x0 load address 0x0800d718
  .igot.plt      0x20000090        0x0 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.tdata          0x20000090        0x0 load address 0x0800d708
+.tdata          0x20000090        0x0 load address 0x0800d718
  *(.tdata .tdata.* .gnu.linkonce.td.*)
                 0x20000090                        . = ALIGN (0x4)
                 0x20000090                        _edata = .
@@ -7264,7 +7513,7 @@ LOAD C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
                 [!provide]                        PROVIDE (__data_source_end = __tdata_source_end)
                 [!provide]                        PROVIDE (__data_source_size = (__data_source_end - __data_source))
 
-.tbss           0x20000090        0x0 load address 0x0800d708
+.tbss           0x20000090        0x0 load address 0x0800d718
                 0x20000090                        _sbss = .
                 0x20000090                        __bss_start__ = _sbss
  *(.tbss .tbss.*)
@@ -7281,7 +7530,7 @@ LOAD C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
                 [!provide]                        PROVIDE (__arm32_tls_tcb_offset = MAX (0x8, __tls_align))
                 [!provide]                        PROVIDE (__arm64_tls_tcb_offset = MAX (0x10, __tls_align))
 
-.bss            0x20000090     0x71a8 load address 0x0800d708
+.bss            0x20000090     0x71a8 load address 0x0800d718
  *(.bss)
  .bss           0x20000090       0x1c C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
  *(.bss*)
@@ -7390,31 +7639,25 @@ LOAD C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
                 0x20004a34                USERPath
  .bss.CardType  0x20004a38        0x1 CMakeFiles/LCD_BUTTON.dir/FATFS/Target/user_diskio.c.obj
  *fill*         0x20004a39        0x3 
- .bss.state     0x20004a3c        0x4 CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
-                0x20004a3c                state
- .bss.g_log_enabled
-                0x20004a40        0x4 CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
-                0x20004a40                g_log_enabled
- .bss.g_temperature
-                0x20004a44        0x4 CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
-                0x20004a44                g_temperature
- .bss.hi2c1     0x20004a48       0x54 CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
-                0x20004a48                hi2c1
- .bss.hspi2     0x20004a9c       0x58 CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
-                0x20004a9c                hspi2
- .bss.huart2    0x20004af4       0x48 CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
-                0x20004af4                huart2
- .bss.defaultTaskHandle
-                0x20004b3c        0x4 CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
-                0x20004b3c                defaultTaskHandle
- .bss.buttonTaskHandle
-                0x20004b40        0x4 CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
-                0x20004b40                buttonTaskHandle
- .bss.sdcardTaskHandle
-                0x20004b44        0x4 CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
-                0x20004b44                sdcardTaskHandle
  .bss.__sbrk_heap_end
-                0x20004b48        0x4 CMakeFiles/LCD_BUTTON.dir/Core/Src/sysmem.c.obj
+                0x20004a3c        0x4 CMakeFiles/LCD_BUTTON.dir/Core/Src/sysmem.c.obj
+ .bss.defaultTaskHandle
+                0x20004a40        0x4 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .bss.buttonTaskHandle
+                0x20004a44        0x4 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .bss.sdcardTaskHandle
+                0x20004a48        0x4 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .bss.state     0x20004a4c        0x4 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .bss.g_log_enabled
+                0x20004a50        0x4 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .bss.g_temperature
+                0x20004a54        0x4 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .bss.hi2c1     0x20004a58       0x54 CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+                0x20004a58                hi2c1
+ .bss.hspi2     0x20004aac       0x58 CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+                0x20004aac                hspi2
+ .bss.huart2    0x20004b04       0x48 CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+                0x20004b04                huart2
  .bss.fs        0x20004b4c     0x103c CMakeFiles/LCD_BUTTON.dir/Core/Src/File_handling_RTOS.c.obj
                 0x20004b4c                fs
  .bss.fil       0x20005b88     0x1030 CMakeFiles/LCD_BUTTON.dir/Core/Src/File_handling_RTOS.c.obj
@@ -7454,7 +7697,7 @@ LOAD C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
                 [!provide]                        PROVIDE (__bss_size = (__bss_end - __bss_start))
 
 ._user_heap_stack
-                0x20007238      0x600 load address 0x0800d708
+                0x20007238      0x600 load address 0x0800d718
                 0x20007238                        . = ALIGN (0x8)
                 [!provide]                        PROVIDE (end = .)
                 0x20007238                        PROVIDE (_end = .)
@@ -7532,65 +7775,69 @@ LOAD linker stubs
  .ARM.attributes
                 0x0000059e       0x21 CMakeFiles/LCD_BUTTON.dir/startup_stm32f401xe.s.obj
  .ARM.attributes
-                0x000005bf       0x34 CMakeFiles/LCD_BUTTON.dir/Core/Src/LCD_Show.c.obj
+                0x000005bf       0x34 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
  .ARM.attributes
-                0x000005f3       0x34 CMakeFiles/LCD_BUTTON.dir/Core/Src/DS18B20.c.obj
+                0x000005f3       0x34 CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
  .ARM.attributes
-                0x00000627       0x34 CMakeFiles/LCD_BUTTON.dir/Core/Src/File_handling_RTOS.c.obj
+                0x00000627       0x34 CMakeFiles/LCD_BUTTON.dir/Core/Src/LCD_Show.c.obj
  .ARM.attributes
-                0x0000065b       0x34 CMakeFiles/LCD_BUTTON.dir/Core/Src/ssd1306.c.obj
+                0x0000065b       0x34 CMakeFiles/LCD_BUTTON.dir/Core/Src/DS18B20.c.obj
  .ARM.attributes
-                0x0000068f       0x34 CMakeFiles/LCD_BUTTON.dir/Core/Src/fonts.c.obj
+                0x0000068f       0x34 CMakeFiles/LCD_BUTTON.dir/Core/Src/File_handling_RTOS.c.obj
  .ARM.attributes
-                0x000006c3       0x22 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a(_aeabi_uldivmod.o)
+                0x000006c3       0x34 CMakeFiles/LCD_BUTTON.dir/Core/Src/ssd1306.c.obj
  .ARM.attributes
-                0x000006e5       0x34 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a(_udivmoddi4.o)
+                0x000006f7       0x34 CMakeFiles/LCD_BUTTON.dir/Core/Src/fonts.c.obj
  .ARM.attributes
-                0x00000719       0x22 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a(_dvmd_tls.o)
+                0x0000072b       0x22 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a(_aeabi_uldivmod.o)
  .ARM.attributes
-                0x0000073b       0x34 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-findfp.o)
+                0x0000074d       0x34 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a(_udivmoddi4.o)
  .ARM.attributes
-                0x0000076f       0x34 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-snprintf.o)
+                0x00000781       0x22 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a(_dvmd_tls.o)
  .ARM.attributes
-                0x000007a3       0x34 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-sprintf.o)
+                0x000007a3       0x34 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-findfp.o)
  .ARM.attributes
-                0x000007d7       0x34 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memset.o)
+                0x000007d7       0x34 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-snprintf.o)
  .ARM.attributes
-                0x0000080b       0x34 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-reent.o)
+                0x0000080b       0x34 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-sprintf.o)
  .ARM.attributes
-                0x0000083f       0x34 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-impure.o)
+                0x0000083f       0x34 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memset.o)
  .ARM.attributes
-                0x00000873       0x34 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-errno.o)
+                0x00000873       0x34 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-reent.o)
  .ARM.attributes
-                0x000008a7       0x34 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-init.o)
+                0x000008a7       0x34 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-impure.o)
  .ARM.attributes
-                0x000008db       0x34 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-lock.o)
+                0x000008db       0x34 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-errno.o)
  .ARM.attributes
-                0x0000090f       0x34 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memcpy-stub.o)
+                0x0000090f       0x34 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-init.o)
  .ARM.attributes
-                0x00000943       0x17 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-strlen.o)
+                0x00000943       0x34 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-lock.o)
  .ARM.attributes
-                0x0000095a       0x34 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-freer.o)
+                0x00000977       0x34 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memcpy-stub.o)
  .ARM.attributes
-                0x0000098e       0x34 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-mallocr.o)
+                0x000009ab       0x17 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-strlen.o)
  .ARM.attributes
-                0x000009c2       0x34 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-mlock.o)
+                0x000009c2       0x34 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-freer.o)
  .ARM.attributes
-                0x000009f6       0x34 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-svfprintf.o)
+                0x000009f6       0x34 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-mallocr.o)
  .ARM.attributes
-                0x00000a2a       0x34 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf_i.o)
+                0x00000a2a       0x34 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-mlock.o)
  .ARM.attributes
-                0x00000a5e       0x34 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memmove.o)
+                0x00000a5e       0x34 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-svfprintf.o)
  .ARM.attributes
-                0x00000a92       0x34 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-sbrkr.o)
+                0x00000a92       0x34 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf_i.o)
  .ARM.attributes
-                0x00000ac6       0x1c C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memchr.o)
+                0x00000ac6       0x34 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memmove.o)
  .ARM.attributes
-                0x00000ae2       0x34 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-reallocr.o)
+                0x00000afa       0x34 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-sbrkr.o)
  .ARM.attributes
-                0x00000b16       0x34 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-msizer.o)
+                0x00000b2e       0x1c C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memchr.o)
  .ARM.attributes
-                0x00000b4a       0x22 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtn.o
+                0x00000b4a       0x34 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-reallocr.o)
+ .ARM.attributes
+                0x00000b7e       0x34 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-msizer.o)
+ .ARM.attributes
+                0x00000bb2       0x22 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtn.o
 
 .comment        0x00000000       0x43
  .comment       0x00000000       0x43 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f4xx.c.obj
@@ -7620,6 +7867,8 @@ LOAD linker stubs
  .comment       0x00000043       0x44 CMakeFiles/LCD_BUTTON.dir/Core/Src/stm32f4xx_it.c.obj
  .comment       0x00000043       0x44 CMakeFiles/LCD_BUTTON.dir/Core/Src/stm32f4xx_hal_msp.c.obj
  .comment       0x00000043       0x44 CMakeFiles/LCD_BUTTON.dir/Core/Src/sysmem.c.obj
+ .comment       0x00000043       0x44 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .comment       0x00000043       0x44 CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
  .comment       0x00000043       0x44 CMakeFiles/LCD_BUTTON.dir/Core/Src/LCD_Show.c.obj
  .comment       0x00000043       0x44 CMakeFiles/LCD_BUTTON.dir/Core/Src/DS18B20.c.obj
  .comment       0x00000043       0x44 CMakeFiles/LCD_BUTTON.dir/Core/Src/File_handling_RTOS.c.obj
@@ -7645,7 +7894,7 @@ LOAD linker stubs
  .comment       0x00000043       0x44 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-reallocr.o)
  .comment       0x00000043       0x44 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-msizer.o)
 
-.debug_info     0x00000000    0x25765
+.debug_info     0x00000000    0x2596f
  .debug_info    0x00000000      0x53e cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f4xx.c.obj
  .debug_info    0x0000053e      0x905 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
  .debug_info    0x00000e43      0x6f9 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
@@ -7668,39 +7917,41 @@ LOAD linker stubs
  .debug_info    0x00015d4e      0x1b9 cmake/stm32cubemx/CMakeFiles/FatFs.dir/__/__/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.obj
  .debug_info    0x00015f07      0x521 CMakeFiles/LCD_BUTTON.dir/FATFS/App/fatfs.c.obj
  .debug_info    0x00016428      0xcf0 CMakeFiles/LCD_BUTTON.dir/FATFS/Target/user_diskio.c.obj
- .debug_info    0x00017118     0x14ef CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
- .debug_info    0x00018607      0x11a CMakeFiles/LCD_BUTTON.dir/Core/Src/stm32f4xx_it.c.obj
- .debug_info    0x00018721     0x1109 CMakeFiles/LCD_BUTTON.dir/Core/Src/stm32f4xx_hal_msp.c.obj
- .debug_info    0x0001982a      0x168 CMakeFiles/LCD_BUTTON.dir/Core/Src/sysmem.c.obj
- .debug_info    0x00019992       0x30 CMakeFiles/LCD_BUTTON.dir/startup_stm32f401xe.s.obj
- .debug_info    0x000199c2      0x244 CMakeFiles/LCD_BUTTON.dir/Core/Src/LCD_Show.c.obj
- .debug_info    0x00019c06      0x7e4 CMakeFiles/LCD_BUTTON.dir/Core/Src/DS18B20.c.obj
- .debug_info    0x0001a3ea     0x121a CMakeFiles/LCD_BUTTON.dir/Core/Src/File_handling_RTOS.c.obj
- .debug_info    0x0001b604     0x10db CMakeFiles/LCD_BUTTON.dir/Core/Src/ssd1306.c.obj
- .debug_info    0x0001c6df      0x255 CMakeFiles/LCD_BUTTON.dir/Core/Src/fonts.c.obj
- .debug_info    0x0001c934      0xfb5 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-findfp.o)
- .debug_info    0x0001d8e9      0x8b9 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-snprintf.o)
- .debug_info    0x0001e1a2      0x885 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-sprintf.o)
- .debug_info    0x0001ea27       0xe0 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memset.o)
- .debug_info    0x0001eb07      0x8a1 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-reent.o)
- .debug_info    0x0001f3a8      0x715 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-impure.o)
- .debug_info    0x0001fabd      0x6fb C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-errno.o)
- .debug_info    0x000201b8      0x10b C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-init.o)
- .debug_info    0x000202c3      0x218 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-lock.o)
- .debug_info    0x000204db      0x121 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memcpy-stub.o)
- .debug_info    0x000205fc       0x31 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-strlen.o)
- .debug_info    0x0002062d      0x851 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-freer.o)
- .debug_info    0x00020e7e      0x9bc C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-mallocr.o)
- .debug_info    0x0002183a      0x76b C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-mlock.o)
- .debug_info    0x00021fa5     0x10c7 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-svfprintf.o)
- .debug_info    0x0002306c      0xde2 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf_i.o)
- .debug_info    0x00023e4e      0x10f C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memmove.o)
- .debug_info    0x00023f5d      0x782 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-sbrkr.o)
- .debug_info    0x000246df       0x25 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memchr.o)
- .debug_info    0x00024704      0x8cd C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-reallocr.o)
- .debug_info    0x00024fd1      0x794 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-msizer.o)
+ .debug_info    0x00017118      0x116 CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
+ .debug_info    0x0001722e      0x11a CMakeFiles/LCD_BUTTON.dir/Core/Src/stm32f4xx_it.c.obj
+ .debug_info    0x00017348     0x1109 CMakeFiles/LCD_BUTTON.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+ .debug_info    0x00018451      0x168 CMakeFiles/LCD_BUTTON.dir/Core/Src/sysmem.c.obj
+ .debug_info    0x000185b9       0x30 CMakeFiles/LCD_BUTTON.dir/startup_stm32f401xe.s.obj
+ .debug_info    0x000185e9      0x5a1 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_info    0x00018b8a     0x1042 CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .debug_info    0x00019bcc      0x244 CMakeFiles/LCD_BUTTON.dir/Core/Src/LCD_Show.c.obj
+ .debug_info    0x00019e10      0x7e4 CMakeFiles/LCD_BUTTON.dir/Core/Src/DS18B20.c.obj
+ .debug_info    0x0001a5f4     0x121a CMakeFiles/LCD_BUTTON.dir/Core/Src/File_handling_RTOS.c.obj
+ .debug_info    0x0001b80e     0x10db CMakeFiles/LCD_BUTTON.dir/Core/Src/ssd1306.c.obj
+ .debug_info    0x0001c8e9      0x255 CMakeFiles/LCD_BUTTON.dir/Core/Src/fonts.c.obj
+ .debug_info    0x0001cb3e      0xfb5 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-findfp.o)
+ .debug_info    0x0001daf3      0x8b9 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-snprintf.o)
+ .debug_info    0x0001e3ac      0x885 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-sprintf.o)
+ .debug_info    0x0001ec31       0xe0 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memset.o)
+ .debug_info    0x0001ed11      0x8a1 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-reent.o)
+ .debug_info    0x0001f5b2      0x715 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-impure.o)
+ .debug_info    0x0001fcc7      0x6fb C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-errno.o)
+ .debug_info    0x000203c2      0x10b C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-init.o)
+ .debug_info    0x000204cd      0x218 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-lock.o)
+ .debug_info    0x000206e5      0x121 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memcpy-stub.o)
+ .debug_info    0x00020806       0x31 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-strlen.o)
+ .debug_info    0x00020837      0x851 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-freer.o)
+ .debug_info    0x00021088      0x9bc C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-mallocr.o)
+ .debug_info    0x00021a44      0x76b C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-mlock.o)
+ .debug_info    0x000221af     0x10c7 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-svfprintf.o)
+ .debug_info    0x00023276      0xde2 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf_i.o)
+ .debug_info    0x00024058      0x10f C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memmove.o)
+ .debug_info    0x00024167      0x782 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-sbrkr.o)
+ .debug_info    0x000248e9       0x25 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memchr.o)
+ .debug_info    0x0002490e      0x8cd C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-reallocr.o)
+ .debug_info    0x000251db      0x794 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-msizer.o)
 
-.debug_abbrev   0x00000000     0x68a4
+.debug_abbrev   0x00000000     0x6a63
  .debug_abbrev  0x00000000      0x11a cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f4xx.c.obj
  .debug_abbrev  0x0000011a      0x2b6 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
  .debug_abbrev  0x000003d0      0x1d3 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
@@ -7723,39 +7974,41 @@ LOAD linker stubs
  .debug_abbrev  0x00002f88       0xde cmake/stm32cubemx/CMakeFiles/FatFs.dir/__/__/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.obj
  .debug_abbrev  0x00003066      0x15e CMakeFiles/LCD_BUTTON.dir/FATFS/App/fatfs.c.obj
  .debug_abbrev  0x000031c4      0x2c7 CMakeFiles/LCD_BUTTON.dir/FATFS/Target/user_diskio.c.obj
- .debug_abbrev  0x0000348b      0x34f CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
- .debug_abbrev  0x000037da       0x97 CMakeFiles/LCD_BUTTON.dir/Core/Src/stm32f4xx_it.c.obj
- .debug_abbrev  0x00003871      0x1f5 CMakeFiles/LCD_BUTTON.dir/Core/Src/stm32f4xx_hal_msp.c.obj
- .debug_abbrev  0x00003a66       0xbc CMakeFiles/LCD_BUTTON.dir/Core/Src/sysmem.c.obj
- .debug_abbrev  0x00003b22       0x24 CMakeFiles/LCD_BUTTON.dir/startup_stm32f401xe.s.obj
- .debug_abbrev  0x00003b46      0x18e CMakeFiles/LCD_BUTTON.dir/Core/Src/LCD_Show.c.obj
- .debug_abbrev  0x00003cd4      0x223 CMakeFiles/LCD_BUTTON.dir/Core/Src/DS18B20.c.obj
- .debug_abbrev  0x00003ef7      0x2ea CMakeFiles/LCD_BUTTON.dir/Core/Src/File_handling_RTOS.c.obj
- .debug_abbrev  0x000041e1      0x301 CMakeFiles/LCD_BUTTON.dir/Core/Src/ssd1306.c.obj
- .debug_abbrev  0x000044e2      0x11c CMakeFiles/LCD_BUTTON.dir/Core/Src/fonts.c.obj
- .debug_abbrev  0x000045fe      0x424 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-findfp.o)
- .debug_abbrev  0x00004a22      0x231 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-snprintf.o)
- .debug_abbrev  0x00004c53      0x21c C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-sprintf.o)
- .debug_abbrev  0x00004e6f       0x9e C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memset.o)
- .debug_abbrev  0x00004f0d      0x1f7 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-reent.o)
- .debug_abbrev  0x00005104      0x149 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-impure.o)
- .debug_abbrev  0x0000524d      0x15e C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-errno.o)
- .debug_abbrev  0x000053ab       0xc9 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-init.o)
- .debug_abbrev  0x00005474      0x115 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-lock.o)
- .debug_abbrev  0x00005589       0xc1 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memcpy-stub.o)
- .debug_abbrev  0x0000564a       0x28 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-strlen.o)
- .debug_abbrev  0x00005672      0x236 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-freer.o)
- .debug_abbrev  0x000058a8      0x24a C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-mallocr.o)
- .debug_abbrev  0x00005af2      0x1bf C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-mlock.o)
- .debug_abbrev  0x00005cb1      0x31e C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-svfprintf.o)
- .debug_abbrev  0x00005fcf      0x28e C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf_i.o)
- .debug_abbrev  0x0000625d       0xac C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memmove.o)
- .debug_abbrev  0x00006309      0x1da C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-sbrkr.o)
- .debug_abbrev  0x000064e3       0x14 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memchr.o)
- .debug_abbrev  0x000064f7      0x217 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-reallocr.o)
- .debug_abbrev  0x0000670e      0x196 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-msizer.o)
+ .debug_abbrev  0x0000348b       0xcf CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
+ .debug_abbrev  0x0000355a       0x97 CMakeFiles/LCD_BUTTON.dir/Core/Src/stm32f4xx_it.c.obj
+ .debug_abbrev  0x000035f1      0x1f5 CMakeFiles/LCD_BUTTON.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+ .debug_abbrev  0x000037e6       0xbc CMakeFiles/LCD_BUTTON.dir/Core/Src/sysmem.c.obj
+ .debug_abbrev  0x000038a2       0x24 CMakeFiles/LCD_BUTTON.dir/startup_stm32f401xe.s.obj
+ .debug_abbrev  0x000038c6      0x22a CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_abbrev  0x00003af0      0x215 CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .debug_abbrev  0x00003d05      0x18e CMakeFiles/LCD_BUTTON.dir/Core/Src/LCD_Show.c.obj
+ .debug_abbrev  0x00003e93      0x223 CMakeFiles/LCD_BUTTON.dir/Core/Src/DS18B20.c.obj
+ .debug_abbrev  0x000040b6      0x2ea CMakeFiles/LCD_BUTTON.dir/Core/Src/File_handling_RTOS.c.obj
+ .debug_abbrev  0x000043a0      0x301 CMakeFiles/LCD_BUTTON.dir/Core/Src/ssd1306.c.obj
+ .debug_abbrev  0x000046a1      0x11c CMakeFiles/LCD_BUTTON.dir/Core/Src/fonts.c.obj
+ .debug_abbrev  0x000047bd      0x424 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-findfp.o)
+ .debug_abbrev  0x00004be1      0x231 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-snprintf.o)
+ .debug_abbrev  0x00004e12      0x21c C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-sprintf.o)
+ .debug_abbrev  0x0000502e       0x9e C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memset.o)
+ .debug_abbrev  0x000050cc      0x1f7 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-reent.o)
+ .debug_abbrev  0x000052c3      0x149 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-impure.o)
+ .debug_abbrev  0x0000540c      0x15e C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-errno.o)
+ .debug_abbrev  0x0000556a       0xc9 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-init.o)
+ .debug_abbrev  0x00005633      0x115 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-lock.o)
+ .debug_abbrev  0x00005748       0xc1 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memcpy-stub.o)
+ .debug_abbrev  0x00005809       0x28 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-strlen.o)
+ .debug_abbrev  0x00005831      0x236 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-freer.o)
+ .debug_abbrev  0x00005a67      0x24a C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-mallocr.o)
+ .debug_abbrev  0x00005cb1      0x1bf C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-mlock.o)
+ .debug_abbrev  0x00005e70      0x31e C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-svfprintf.o)
+ .debug_abbrev  0x0000618e      0x28e C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf_i.o)
+ .debug_abbrev  0x0000641c       0xac C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memmove.o)
+ .debug_abbrev  0x000064c8      0x1da C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-sbrkr.o)
+ .debug_abbrev  0x000066a2       0x14 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memchr.o)
+ .debug_abbrev  0x000066b6      0x217 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-reallocr.o)
+ .debug_abbrev  0x000068cd      0x196 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-msizer.o)
 
-.debug_aranges  0x00000000     0x1c90
+.debug_aranges  0x00000000     0x1cd0
  .debug_aranges
                 0x00000000       0x28 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f4xx.c.obj
  .debug_aranges
@@ -7801,70 +8054,74 @@ LOAD linker stubs
  .debug_aranges
                 0x00001518       0x88 CMakeFiles/LCD_BUTTON.dir/FATFS/Target/user_diskio.c.obj
  .debug_aranges
-                0x000015a0       0x70 CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
+                0x000015a0       0x28 CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
  .debug_aranges
-                0x00001610       0x50 CMakeFiles/LCD_BUTTON.dir/Core/Src/stm32f4xx_it.c.obj
+                0x000015c8       0x50 CMakeFiles/LCD_BUTTON.dir/Core/Src/stm32f4xx_it.c.obj
  .debug_aranges
-                0x00001660       0x50 CMakeFiles/LCD_BUTTON.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+                0x00001618       0x50 CMakeFiles/LCD_BUTTON.dir/Core/Src/stm32f4xx_hal_msp.c.obj
  .debug_aranges
-                0x000016b0       0x20 CMakeFiles/LCD_BUTTON.dir/Core/Src/sysmem.c.obj
+                0x00001668       0x20 CMakeFiles/LCD_BUTTON.dir/Core/Src/sysmem.c.obj
  .debug_aranges
-                0x000016d0       0x28 CMakeFiles/LCD_BUTTON.dir/startup_stm32f401xe.s.obj
+                0x00001688       0x28 CMakeFiles/LCD_BUTTON.dir/startup_stm32f401xe.s.obj
  .debug_aranges
-                0x000016f8       0x28 CMakeFiles/LCD_BUTTON.dir/Core/Src/LCD_Show.c.obj
+                0x000016b0       0x40 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
  .debug_aranges
-                0x00001720       0x70 CMakeFiles/LCD_BUTTON.dir/Core/Src/DS18B20.c.obj
+                0x000016f0       0x48 CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
  .debug_aranges
-                0x00001790       0x78 CMakeFiles/LCD_BUTTON.dir/Core/Src/File_handling_RTOS.c.obj
+                0x00001738       0x28 CMakeFiles/LCD_BUTTON.dir/Core/Src/LCD_Show.c.obj
  .debug_aranges
-                0x00001808       0xf8 CMakeFiles/LCD_BUTTON.dir/Core/Src/ssd1306.c.obj
+                0x00001760       0x70 CMakeFiles/LCD_BUTTON.dir/Core/Src/DS18B20.c.obj
  .debug_aranges
-                0x00001900       0x20 CMakeFiles/LCD_BUTTON.dir/Core/Src/fonts.c.obj
+                0x000017d0       0x78 CMakeFiles/LCD_BUTTON.dir/Core/Src/File_handling_RTOS.c.obj
  .debug_aranges
-                0x00001920       0x78 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-findfp.o)
+                0x00001848       0xf8 CMakeFiles/LCD_BUTTON.dir/Core/Src/ssd1306.c.obj
  .debug_aranges
-                0x00001998       0x28 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-snprintf.o)
+                0x00001940       0x20 CMakeFiles/LCD_BUTTON.dir/Core/Src/fonts.c.obj
  .debug_aranges
-                0x000019c0       0x28 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-sprintf.o)
+                0x00001960       0x78 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-findfp.o)
  .debug_aranges
-                0x000019e8       0x20 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memset.o)
+                0x000019d8       0x28 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-snprintf.o)
  .debug_aranges
-                0x00001a08       0x20 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-reent.o)
+                0x00001a00       0x28 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-sprintf.o)
  .debug_aranges
-                0x00001a28       0x18 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-impure.o)
+                0x00001a28       0x20 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memset.o)
  .debug_aranges
-                0x00001a40       0x20 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-errno.o)
+                0x00001a48       0x20 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-reent.o)
  .debug_aranges
-                0x00001a60       0x20 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-init.o)
+                0x00001a68       0x18 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-impure.o)
  .debug_aranges
-                0x00001a80       0x68 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-lock.o)
+                0x00001a80       0x20 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-errno.o)
  .debug_aranges
-                0x00001ae8       0x20 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memcpy-stub.o)
+                0x00001aa0       0x20 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-init.o)
  .debug_aranges
-                0x00001b08       0x20 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-strlen.o)
+                0x00001ac0       0x68 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-lock.o)
  .debug_aranges
-                0x00001b28       0x20 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-freer.o)
+                0x00001b28       0x20 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memcpy-stub.o)
  .debug_aranges
-                0x00001b48       0x28 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-mallocr.o)
+                0x00001b48       0x20 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-strlen.o)
  .debug_aranges
-                0x00001b70       0x28 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-mlock.o)
+                0x00001b68       0x20 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-freer.o)
  .debug_aranges
-                0x00001b98       0x30 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-svfprintf.o)
+                0x00001b88       0x28 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-mallocr.o)
  .debug_aranges
-                0x00001bc8       0x28 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf_i.o)
+                0x00001bb0       0x28 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-mlock.o)
  .debug_aranges
-                0x00001bf0       0x20 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memmove.o)
+                0x00001bd8       0x30 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-svfprintf.o)
  .debug_aranges
-                0x00001c10       0x20 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-sbrkr.o)
+                0x00001c08       0x28 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf_i.o)
  .debug_aranges
-                0x00001c30       0x20 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memchr.o)
+                0x00001c30       0x20 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memmove.o)
  .debug_aranges
-                0x00001c50       0x20 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-reallocr.o)
+                0x00001c50       0x20 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-sbrkr.o)
  .debug_aranges
-                0x00001c70       0x20 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-msizer.o)
+                0x00001c70       0x20 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memchr.o)
+ .debug_aranges
+                0x00001c90       0x20 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-reallocr.o)
+ .debug_aranges
+                0x00001cb0       0x20 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-msizer.o)
 
 .debug_rnglists
-                0x00000000     0x164a
+                0x00000000     0x166f
  .debug_rnglists
                 0x00000000       0x1a cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f4xx.c.obj
  .debug_rnglists
@@ -7910,63 +8167,67 @@ LOAD linker stubs
  .debug_rnglists
                 0x00001082       0x66 CMakeFiles/LCD_BUTTON.dir/FATFS/Target/user_diskio.c.obj
  .debug_rnglists
-                0x000010e8       0x58 CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
+                0x000010e8       0x19 CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
  .debug_rnglists
-                0x00001140       0x37 CMakeFiles/LCD_BUTTON.dir/Core/Src/stm32f4xx_it.c.obj
+                0x00001101       0x37 CMakeFiles/LCD_BUTTON.dir/Core/Src/stm32f4xx_it.c.obj
  .debug_rnglists
-                0x00001177       0x3a CMakeFiles/LCD_BUTTON.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+                0x00001138       0x3a CMakeFiles/LCD_BUTTON.dir/Core/Src/stm32f4xx_hal_msp.c.obj
  .debug_rnglists
-                0x000011b1       0x13 CMakeFiles/LCD_BUTTON.dir/Core/Src/sysmem.c.obj
+                0x00001172       0x13 CMakeFiles/LCD_BUTTON.dir/Core/Src/sysmem.c.obj
  .debug_rnglists
-                0x000011c4       0x19 CMakeFiles/LCD_BUTTON.dir/startup_stm32f401xe.s.obj
+                0x00001185       0x19 CMakeFiles/LCD_BUTTON.dir/startup_stm32f401xe.s.obj
  .debug_rnglists
-                0x000011dd       0x1a CMakeFiles/LCD_BUTTON.dir/Core/Src/LCD_Show.c.obj
+                0x0000119e       0x2e CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
  .debug_rnglists
-                0x000011f7       0x50 CMakeFiles/LCD_BUTTON.dir/Core/Src/DS18B20.c.obj
+                0x000011cc       0x36 CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
  .debug_rnglists
-                0x00001247       0x70 CMakeFiles/LCD_BUTTON.dir/Core/Src/File_handling_RTOS.c.obj
+                0x00001202       0x1a CMakeFiles/LCD_BUTTON.dir/Core/Src/LCD_Show.c.obj
  .debug_rnglists
-                0x000012b7       0xc4 CMakeFiles/LCD_BUTTON.dir/Core/Src/ssd1306.c.obj
+                0x0000121c       0x50 CMakeFiles/LCD_BUTTON.dir/Core/Src/DS18B20.c.obj
  .debug_rnglists
-                0x0000137b       0x13 CMakeFiles/LCD_BUTTON.dir/Core/Src/fonts.c.obj
+                0x0000126c       0x70 CMakeFiles/LCD_BUTTON.dir/Core/Src/File_handling_RTOS.c.obj
  .debug_rnglists
-                0x0000138e       0x7a C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-findfp.o)
+                0x000012dc       0xc4 CMakeFiles/LCD_BUTTON.dir/Core/Src/ssd1306.c.obj
  .debug_rnglists
-                0x00001408       0x19 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-snprintf.o)
+                0x000013a0       0x13 CMakeFiles/LCD_BUTTON.dir/Core/Src/fonts.c.obj
  .debug_rnglists
-                0x00001421       0x19 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-sprintf.o)
+                0x000013b3       0x7a C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-findfp.o)
  .debug_rnglists
-                0x0000143a       0x13 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memset.o)
+                0x0000142d       0x19 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-snprintf.o)
  .debug_rnglists
-                0x0000144d       0x2c C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-reent.o)
+                0x00001446       0x19 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-sprintf.o)
  .debug_rnglists
-                0x00001479       0x13 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-errno.o)
+                0x0000145f       0x13 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memset.o)
  .debug_rnglists
-                0x0000148c       0x13 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-init.o)
+                0x00001472       0x2c C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-reent.o)
  .debug_rnglists
-                0x0000149f       0x49 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-lock.o)
+                0x0000149e       0x13 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-errno.o)
  .debug_rnglists
-                0x000014e8       0x13 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memcpy-stub.o)
+                0x000014b1       0x13 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-init.o)
  .debug_rnglists
-                0x000014fb       0x14 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-freer.o)
+                0x000014c4       0x49 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-lock.o)
  .debug_rnglists
-                0x0000150f       0x2c C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-mallocr.o)
+                0x0000150d       0x13 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memcpy-stub.o)
  .debug_rnglists
-                0x0000153b       0x19 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-mlock.o)
+                0x00001520       0x14 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-freer.o)
  .debug_rnglists
-                0x00001554       0x44 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-svfprintf.o)
+                0x00001534       0x2c C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-mallocr.o)
  .debug_rnglists
-                0x00001598       0x66 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf_i.o)
+                0x00001560       0x19 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-mlock.o)
  .debug_rnglists
-                0x000015fe       0x13 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memmove.o)
+                0x00001579       0x44 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-svfprintf.o)
  .debug_rnglists
-                0x00001611       0x13 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-sbrkr.o)
+                0x000015bd       0x66 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf_i.o)
  .debug_rnglists
-                0x00001624       0x13 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-reallocr.o)
+                0x00001623       0x13 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memmove.o)
  .debug_rnglists
-                0x00001637       0x13 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-msizer.o)
+                0x00001636       0x13 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-sbrkr.o)
+ .debug_rnglists
+                0x00001649       0x13 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-reallocr.o)
+ .debug_rnglists
+                0x0000165c       0x13 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-msizer.o)
 
-.debug_macro    0x00000000    0x19ea7
+.debug_macro    0x00000000    0x1a2fd
  .debug_macro   0x00000000      0x1dd cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f4xx.c.obj
  .debug_macro   0x000001dd      0xad8 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f4xx.c.obj
  .debug_macro   0x00000cb5       0x2e cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f4xx.c.obj
@@ -8054,28 +8315,26 @@ LOAD linker stubs
  .debug_macro   0x000176df      0x2cf CMakeFiles/LCD_BUTTON.dir/FATFS/App/fatfs.c.obj
  .debug_macro   0x000179ae      0x3fc CMakeFiles/LCD_BUTTON.dir/FATFS/Target/user_diskio.c.obj
  .debug_macro   0x00017daa       0x22 CMakeFiles/LCD_BUTTON.dir/FATFS/Target/user_diskio.c.obj
- .debug_macro   0x00017dcc      0x441 CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
- .debug_macro   0x0001820d      0x100 CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
- .debug_macro   0x0001830d      0x19b CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
- .debug_macro   0x000184a8       0x1d CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
- .debug_macro   0x000184c5       0x1c CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
- .debug_macro   0x000184e1       0x10 CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
- .debug_macro   0x000184f1       0x1c CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
- .debug_macro   0x0001850d       0x16 CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
- .debug_macro   0x00018523      0x170 CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
- .debug_macro   0x00018693       0x6a CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
- .debug_macro   0x000186fd      0x25e CMakeFiles/LCD_BUTTON.dir/Core/Src/stm32f4xx_it.c.obj
- .debug_macro   0x0001895b      0x1ec CMakeFiles/LCD_BUTTON.dir/Core/Src/stm32f4xx_hal_msp.c.obj
- .debug_macro   0x00018b47      0x103 CMakeFiles/LCD_BUTTON.dir/Core/Src/sysmem.c.obj
- .debug_macro   0x00018c4a       0x10 CMakeFiles/LCD_BUTTON.dir/Core/Src/sysmem.c.obj
- .debug_macro   0x00018c5a      0x23c CMakeFiles/LCD_BUTTON.dir/Core/Src/sysmem.c.obj
- .debug_macro   0x00018e96      0x33a CMakeFiles/LCD_BUTTON.dir/Core/Src/LCD_Show.c.obj
- .debug_macro   0x000191d0      0x325 CMakeFiles/LCD_BUTTON.dir/Core/Src/DS18B20.c.obj
- .debug_macro   0x000194f5      0x3db CMakeFiles/LCD_BUTTON.dir/Core/Src/File_handling_RTOS.c.obj
- .debug_macro   0x000198d0      0x331 CMakeFiles/LCD_BUTTON.dir/Core/Src/ssd1306.c.obj
- .debug_macro   0x00019c01      0x2a6 CMakeFiles/LCD_BUTTON.dir/Core/Src/fonts.c.obj
+ .debug_macro   0x00017dcc      0x405 CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
+ .debug_macro   0x000181d1      0x100 CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
+ .debug_macro   0x000182d1       0x1d CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
+ .debug_macro   0x000182ee      0x25e CMakeFiles/LCD_BUTTON.dir/Core/Src/stm32f4xx_it.c.obj
+ .debug_macro   0x0001854c      0x1ec CMakeFiles/LCD_BUTTON.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+ .debug_macro   0x00018738      0x103 CMakeFiles/LCD_BUTTON.dir/Core/Src/sysmem.c.obj
+ .debug_macro   0x0001883b       0x10 CMakeFiles/LCD_BUTTON.dir/Core/Src/sysmem.c.obj
+ .debug_macro   0x0001884b      0x23c CMakeFiles/LCD_BUTTON.dir/Core/Src/sysmem.c.obj
+ .debug_macro   0x00018a87      0x44e CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00018ed5       0x1c CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00018ef1       0x6a CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_macro   0x00018f5b      0x1f6 CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .debug_macro   0x00019151      0x33a CMakeFiles/LCD_BUTTON.dir/Core/Src/LCD_Show.c.obj
+ .debug_macro   0x0001948b      0x19b CMakeFiles/LCD_BUTTON.dir/Core/Src/LCD_Show.c.obj
+ .debug_macro   0x00019626      0x325 CMakeFiles/LCD_BUTTON.dir/Core/Src/DS18B20.c.obj
+ .debug_macro   0x0001994b      0x3db CMakeFiles/LCD_BUTTON.dir/Core/Src/File_handling_RTOS.c.obj
+ .debug_macro   0x00019d26      0x331 CMakeFiles/LCD_BUTTON.dir/Core/Src/ssd1306.c.obj
+ .debug_macro   0x0001a057      0x2a6 CMakeFiles/LCD_BUTTON.dir/Core/Src/fonts.c.obj
 
-.debug_line     0x00000000    0x25d01
+.debug_line     0x00000000    0x27106
  .debug_line    0x00000000      0x807 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f4xx.c.obj
  .debug_line    0x00000807      0xe92 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
  .debug_line    0x00001699      0xb9f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
@@ -8098,95 +8357,99 @@ LOAD linker stubs
  .debug_line    0x000195da      0xbc9 cmake/stm32cubemx/CMakeFiles/FatFs.dir/__/__/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.obj
  .debug_line    0x0001a1a3      0xb1a CMakeFiles/LCD_BUTTON.dir/FATFS/App/fatfs.c.obj
  .debug_line    0x0001acbd     0x1028 CMakeFiles/LCD_BUTTON.dir/FATFS/Target/user_diskio.c.obj
- .debug_line    0x0001bce5     0x1101 CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
- .debug_line    0x0001cde6      0x9ca CMakeFiles/LCD_BUTTON.dir/Core/Src/stm32f4xx_it.c.obj
- .debug_line    0x0001d7b0      0x88c CMakeFiles/LCD_BUTTON.dir/Core/Src/stm32f4xx_hal_msp.c.obj
- .debug_line    0x0001e03c      0x364 CMakeFiles/LCD_BUTTON.dir/Core/Src/sysmem.c.obj
- .debug_line    0x0001e3a0       0x7a CMakeFiles/LCD_BUTTON.dir/startup_stm32f401xe.s.obj
- .debug_line    0x0001e41a      0x8dd CMakeFiles/LCD_BUTTON.dir/Core/Src/LCD_Show.c.obj
- .debug_line    0x0001ecf7      0xc63 CMakeFiles/LCD_BUTTON.dir/Core/Src/DS18B20.c.obj
- .debug_line    0x0001f95a     0x10dc CMakeFiles/LCD_BUTTON.dir/Core/Src/File_handling_RTOS.c.obj
- .debug_line    0x00020a36      0xfdb CMakeFiles/LCD_BUTTON.dir/Core/Src/ssd1306.c.obj
- .debug_line    0x00021a11      0x835 CMakeFiles/LCD_BUTTON.dir/Core/Src/fonts.c.obj
- .debug_line    0x00022246      0x5c0 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-findfp.o)
- .debug_line    0x00022806      0x365 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-snprintf.o)
- .debug_line    0x00022b6b      0x2ac C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-sprintf.o)
- .debug_line    0x00022e17      0x17e C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memset.o)
- .debug_line    0x00022f95      0x2f5 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-reent.o)
- .debug_line    0x0002328a      0x163 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-impure.o)
- .debug_line    0x000233ed      0x185 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-errno.o)
- .debug_line    0x00023572      0x170 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-init.o)
- .debug_line    0x000236e2      0x19b C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-lock.o)
- .debug_line    0x0002387d      0x202 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memcpy-stub.o)
- .debug_line    0x00023a7f       0x4f C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-strlen.o)
- .debug_line    0x00023ace      0x30d C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-freer.o)
- .debug_line    0x00023ddb      0x4e5 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-mallocr.o)
- .debug_line    0x000242c0      0x1ed C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-mlock.o)
- .debug_line    0x000244ad      0x871 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-svfprintf.o)
- .debug_line    0x00024d1e      0x70d C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf_i.o)
- .debug_line    0x0002542b      0x1bc C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memmove.o)
- .debug_line    0x000255e7      0x21f C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-sbrkr.o)
- .debug_line    0x00025806       0x84 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memchr.o)
- .debug_line    0x0002588a      0x272 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-reallocr.o)
- .debug_line    0x00025afc      0x205 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-msizer.o)
+ .debug_line    0x0001bce5      0xc90 CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
+ .debug_line    0x0001c975      0x9ca CMakeFiles/LCD_BUTTON.dir/Core/Src/stm32f4xx_it.c.obj
+ .debug_line    0x0001d33f      0x88c CMakeFiles/LCD_BUTTON.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+ .debug_line    0x0001dbcb      0x364 CMakeFiles/LCD_BUTTON.dir/Core/Src/sysmem.c.obj
+ .debug_line    0x0001df2f       0x7a CMakeFiles/LCD_BUTTON.dir/startup_stm32f401xe.s.obj
+ .debug_line    0x0001dfa9      0xe0a CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_line    0x0001edb3      0xa6c CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .debug_line    0x0001f81f      0x8dd CMakeFiles/LCD_BUTTON.dir/Core/Src/LCD_Show.c.obj
+ .debug_line    0x000200fc      0xc63 CMakeFiles/LCD_BUTTON.dir/Core/Src/DS18B20.c.obj
+ .debug_line    0x00020d5f     0x10dc CMakeFiles/LCD_BUTTON.dir/Core/Src/File_handling_RTOS.c.obj
+ .debug_line    0x00021e3b      0xfdb CMakeFiles/LCD_BUTTON.dir/Core/Src/ssd1306.c.obj
+ .debug_line    0x00022e16      0x835 CMakeFiles/LCD_BUTTON.dir/Core/Src/fonts.c.obj
+ .debug_line    0x0002364b      0x5c0 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-findfp.o)
+ .debug_line    0x00023c0b      0x365 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-snprintf.o)
+ .debug_line    0x00023f70      0x2ac C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-sprintf.o)
+ .debug_line    0x0002421c      0x17e C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memset.o)
+ .debug_line    0x0002439a      0x2f5 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-reent.o)
+ .debug_line    0x0002468f      0x163 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-impure.o)
+ .debug_line    0x000247f2      0x185 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-errno.o)
+ .debug_line    0x00024977      0x170 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-init.o)
+ .debug_line    0x00024ae7      0x19b C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-lock.o)
+ .debug_line    0x00024c82      0x202 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memcpy-stub.o)
+ .debug_line    0x00024e84       0x4f C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-strlen.o)
+ .debug_line    0x00024ed3      0x30d C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-freer.o)
+ .debug_line    0x000251e0      0x4e5 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-mallocr.o)
+ .debug_line    0x000256c5      0x1ed C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-mlock.o)
+ .debug_line    0x000258b2      0x871 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-svfprintf.o)
+ .debug_line    0x00026123      0x70d C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf_i.o)
+ .debug_line    0x00026830      0x1bc C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memmove.o)
+ .debug_line    0x000269ec      0x21f C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-sbrkr.o)
+ .debug_line    0x00026c0b       0x84 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memchr.o)
+ .debug_line    0x00026c8f      0x272 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-reallocr.o)
+ .debug_line    0x00026f01      0x205 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-msizer.o)
 
-.debug_str      0x00000000    0x98303
- .debug_str     0x00000000    0x98303 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f4xx.c.obj
+.debug_str      0x00000000    0x983d6
+ .debug_str     0x00000000    0x983d6 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f4xx.c.obj
                               0x824e2 (size before relaxing)
- .debug_str     0x00098303    0x82916 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
- .debug_str     0x00098303    0x8265d cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
- .debug_str     0x00098303    0x82c6e cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
- .debug_str     0x00098303    0x82f04 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
- .debug_str     0x00098303    0x834f3 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
- .debug_str     0x00098303    0x82d8e cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
- .debug_str     0x00098303    0x82ee5 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
- .debug_str     0x00098303     0xa5fc cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
- .debug_str     0x00098303     0xc13c cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
- .debug_str     0x00098303     0xcbf9 cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
- .debug_str     0x00098303     0xc66e cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
- .debug_str     0x00098303    0x8c9e6 cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
- .debug_str     0x00098303     0xaf3e cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
- .debug_str     0x00098303     0x87d5 cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
- .debug_str     0x00098303    0x8749c cmake/stm32cubemx/CMakeFiles/FatFs.dir/__/__/Middlewares/Third_Party/FatFs/src/diskio.c.obj
- .debug_str     0x00098303    0x888d3 cmake/stm32cubemx/CMakeFiles/FatFs.dir/__/__/Middlewares/Third_Party/FatFs/src/ff.c.obj
- .debug_str     0x00098303    0x874ed cmake/stm32cubemx/CMakeFiles/FatFs.dir/__/__/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj
- .debug_str     0x00098303    0x873d4 cmake/stm32cubemx/CMakeFiles/FatFs.dir/__/__/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj
- .debug_str     0x00098303    0x87271 cmake/stm32cubemx/CMakeFiles/FatFs.dir/__/__/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.obj
- .debug_str     0x00098303    0x875b5 CMakeFiles/LCD_BUTTON.dir/FATFS/App/fatfs.c.obj
- .debug_str     0x00098303    0x8a7cc CMakeFiles/LCD_BUTTON.dir/FATFS/Target/user_diskio.c.obj
- .debug_str     0x00098303    0x8c026 CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
- .debug_str     0x00098303    0x862a5 CMakeFiles/LCD_BUTTON.dir/Core/Src/stm32f4xx_it.c.obj
- .debug_str     0x00098303    0x83270 CMakeFiles/LCD_BUTTON.dir/Core/Src/stm32f4xx_hal_msp.c.obj
- .debug_str     0x00098303     0x7168 CMakeFiles/LCD_BUTTON.dir/Core/Src/sysmem.c.obj
- .debug_str     0x00098303       0xb4 CMakeFiles/LCD_BUTTON.dir/startup_stm32f401xe.s.obj
- .debug_str     0x00098303    0x8600e CMakeFiles/LCD_BUTTON.dir/Core/Src/LCD_Show.c.obj
- .debug_str     0x00098303    0x8a3d7 CMakeFiles/LCD_BUTTON.dir/Core/Src/DS18B20.c.obj
- .debug_str     0x00098303    0x8b005 CMakeFiles/LCD_BUTTON.dir/Core/Src/File_handling_RTOS.c.obj
- .debug_str     0x00098303    0x85b0d CMakeFiles/LCD_BUTTON.dir/Core/Src/ssd1306.c.obj
- .debug_str     0x00098303    0x84f8d CMakeFiles/LCD_BUTTON.dir/Core/Src/fonts.c.obj
- .debug_str     0x00098303      0x7b4 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-findfp.o)
- .debug_str     0x00098303      0x57f C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-snprintf.o)
- .debug_str     0x00098303      0x570 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-sprintf.o)
- .debug_str     0x00098303      0x211 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memset.o)
- .debug_str     0x00098303      0x550 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-reent.o)
- .debug_str     0x00098303      0x531 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-impure.o)
- .debug_str     0x00098303      0x52b C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-errno.o)
- .debug_str     0x00098303      0x272 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-init.o)
- .debug_str     0x00098303      0x3a8 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-lock.o)
- .debug_str     0x00098303      0x22f C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memcpy-stub.o)
- .debug_str     0x00098303       0xf3 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-strlen.o)
- .debug_str     0x00098303      0x5b1 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-freer.o)
- .debug_str     0x00098303      0x612 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-mallocr.o)
- .debug_str     0x00098303      0x5b3 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-mlock.o)
- .debug_str     0x00098303      0x87a C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-svfprintf.o)
- .debug_str     0x00098303      0x810 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf_i.o)
- .debug_str     0x00098303      0x22c C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memmove.o)
- .debug_str     0x00098303      0x53a C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-sbrkr.o)
- .debug_str     0x00098303       0xe2 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memchr.o)
- .debug_str     0x00098303      0x5a7 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-reallocr.o)
- .debug_str     0x00098303      0x57a C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-msizer.o)
+ .debug_str     0x000983d6    0x82916 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_str     0x000983d6    0x8265d cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+ .debug_str     0x000983d6    0x82c6e cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ .debug_str     0x000983d6    0x82f04 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+ .debug_str     0x000983d6    0x834f3 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+ .debug_str     0x000983d6    0x82d8e cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
+ .debug_str     0x000983d6    0x82ee5 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+ .debug_str     0x000983d6     0xa5fc cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+ .debug_str     0x000983d6     0xc13c cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+ .debug_str     0x000983d6     0xcbf9 cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+ .debug_str     0x000983d6     0xc66e cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
+ .debug_str     0x000983d6    0x8c9e6 cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
+ .debug_str     0x000983d6     0xaf3e cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+ .debug_str     0x000983d6     0x87d5 cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+ .debug_str     0x000983d6    0x8749c cmake/stm32cubemx/CMakeFiles/FatFs.dir/__/__/Middlewares/Third_Party/FatFs/src/diskio.c.obj
+ .debug_str     0x000983d6    0x888d3 cmake/stm32cubemx/CMakeFiles/FatFs.dir/__/__/Middlewares/Third_Party/FatFs/src/ff.c.obj
+ .debug_str     0x000983d6    0x874ed cmake/stm32cubemx/CMakeFiles/FatFs.dir/__/__/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj
+ .debug_str     0x000983d6    0x873d4 cmake/stm32cubemx/CMakeFiles/FatFs.dir/__/__/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj
+ .debug_str     0x000983d6    0x87271 cmake/stm32cubemx/CMakeFiles/FatFs.dir/__/__/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.obj
+ .debug_str     0x000983d6    0x875b5 CMakeFiles/LCD_BUTTON.dir/FATFS/App/fatfs.c.obj
+ .debug_str     0x000983d6    0x8a7cc CMakeFiles/LCD_BUTTON.dir/FATFS/Target/user_diskio.c.obj
+ .debug_str     0x000983d6    0x8a17c CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
+ .debug_str     0x000983d6    0x862a5 CMakeFiles/LCD_BUTTON.dir/Core/Src/stm32f4xx_it.c.obj
+ .debug_str     0x000983d6    0x83270 CMakeFiles/LCD_BUTTON.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+ .debug_str     0x000983d6     0x7168 CMakeFiles/LCD_BUTTON.dir/Core/Src/sysmem.c.obj
+ .debug_str     0x000983d6       0xb4 CMakeFiles/LCD_BUTTON.dir/startup_stm32f401xe.s.obj
+ .debug_str     0x000983d6    0x8ac53 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_str     0x000983d6    0x83029 CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .debug_str     0x000983d6    0x8600e CMakeFiles/LCD_BUTTON.dir/Core/Src/LCD_Show.c.obj
+ .debug_str     0x000983d6    0x8a3d7 CMakeFiles/LCD_BUTTON.dir/Core/Src/DS18B20.c.obj
+ .debug_str     0x000983d6    0x8b005 CMakeFiles/LCD_BUTTON.dir/Core/Src/File_handling_RTOS.c.obj
+ .debug_str     0x000983d6    0x85b0d CMakeFiles/LCD_BUTTON.dir/Core/Src/ssd1306.c.obj
+ .debug_str     0x000983d6    0x84f8d CMakeFiles/LCD_BUTTON.dir/Core/Src/fonts.c.obj
+ .debug_str     0x000983d6      0x7b4 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-findfp.o)
+ .debug_str     0x000983d6      0x57f C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-snprintf.o)
+ .debug_str     0x000983d6      0x570 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-sprintf.o)
+ .debug_str     0x000983d6      0x211 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memset.o)
+ .debug_str     0x000983d6      0x550 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-reent.o)
+ .debug_str     0x000983d6      0x531 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-impure.o)
+ .debug_str     0x000983d6      0x52b C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-errno.o)
+ .debug_str     0x000983d6      0x272 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-init.o)
+ .debug_str     0x000983d6      0x3a8 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-lock.o)
+ .debug_str     0x000983d6      0x22f C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memcpy-stub.o)
+ .debug_str     0x000983d6       0xf3 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-strlen.o)
+ .debug_str     0x000983d6      0x5b1 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-freer.o)
+ .debug_str     0x000983d6      0x612 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-mallocr.o)
+ .debug_str     0x000983d6      0x5b3 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-mlock.o)
+ .debug_str     0x000983d6      0x87a C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-svfprintf.o)
+ .debug_str     0x000983d6      0x810 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf_i.o)
+ .debug_str     0x000983d6      0x22c C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memmove.o)
+ .debug_str     0x000983d6      0x53a C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-sbrkr.o)
+ .debug_str     0x000983d6       0xe2 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memchr.o)
+ .debug_str     0x000983d6      0x5a7 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-reallocr.o)
+ .debug_str     0x000983d6      0x57a C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-msizer.o)
 
-.debug_frame    0x00000000     0x6df0
+.debug_frame    0x00000000     0x6e4c
  .debug_frame   0x00000000       0x58 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f4xx.c.obj
  .debug_frame   0x00000058      0x1f4 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
  .debug_frame   0x0000024c      0x14c cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
@@ -8209,35 +8472,37 @@ LOAD linker stubs
  .debug_frame   0x00005954       0x60 cmake/stm32cubemx/CMakeFiles/FatFs.dir/__/__/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.obj
  .debug_frame   0x000059b4       0x4c CMakeFiles/LCD_BUTTON.dir/FATFS/App/fatfs.c.obj
  .debug_frame   0x00005a00      0x1f8 CMakeFiles/LCD_BUTTON.dir/FATFS/Target/user_diskio.c.obj
- .debug_frame   0x00005bf8      0x18c CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
- .debug_frame   0x00005d84       0xc4 CMakeFiles/LCD_BUTTON.dir/Core/Src/stm32f4xx_it.c.obj
- .debug_frame   0x00005e48      0x10c CMakeFiles/LCD_BUTTON.dir/Core/Src/stm32f4xx_hal_msp.c.obj
- .debug_frame   0x00005f54       0x34 CMakeFiles/LCD_BUTTON.dir/Core/Src/sysmem.c.obj
- .debug_frame   0x00005f88       0x54 CMakeFiles/LCD_BUTTON.dir/Core/Src/LCD_Show.c.obj
- .debug_frame   0x00005fdc      0x198 CMakeFiles/LCD_BUTTON.dir/Core/Src/DS18B20.c.obj
- .debug_frame   0x00006174      0x1c0 CMakeFiles/LCD_BUTTON.dir/Core/Src/File_handling_RTOS.c.obj
- .debug_frame   0x00006334      0x41c CMakeFiles/LCD_BUTTON.dir/Core/Src/ssd1306.c.obj
- .debug_frame   0x00006750       0x38 CMakeFiles/LCD_BUTTON.dir/Core/Src/fonts.c.obj
- .debug_frame   0x00006788       0x2c C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a(_aeabi_uldivmod.o)
- .debug_frame   0x000067b4       0x34 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a(_udivmoddi4.o)
- .debug_frame   0x000067e8      0x144 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-findfp.o)
- .debug_frame   0x0000692c       0x7c C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-snprintf.o)
- .debug_frame   0x000069a8       0x74 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-sprintf.o)
- .debug_frame   0x00006a1c       0x20 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memset.o)
- .debug_frame   0x00006a3c       0x38 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-reent.o)
- .debug_frame   0x00006a74       0x20 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-errno.o)
- .debug_frame   0x00006a94       0x2c C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-init.o)
- .debug_frame   0x00006ac0       0xb0 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-lock.o)
- .debug_frame   0x00006b70       0x28 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memcpy-stub.o)
- .debug_frame   0x00006b98       0x38 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-freer.o)
- .debug_frame   0x00006bd0       0x50 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-mallocr.o)
- .debug_frame   0x00006c20       0x30 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-mlock.o)
- .debug_frame   0x00006c50       0x90 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-svfprintf.o)
- .debug_frame   0x00006ce0       0x60 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf_i.o)
- .debug_frame   0x00006d40       0x28 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memmove.o)
- .debug_frame   0x00006d68       0x2c C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-sbrkr.o)
- .debug_frame   0x00006d94       0x3c C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-reallocr.o)
- .debug_frame   0x00006dd0       0x20 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-msizer.o)
+ .debug_frame   0x00005bf8       0x44 CMakeFiles/LCD_BUTTON.dir/Core/Src/main.c.obj
+ .debug_frame   0x00005c3c       0xc4 CMakeFiles/LCD_BUTTON.dir/Core/Src/stm32f4xx_it.c.obj
+ .debug_frame   0x00005d00      0x10c CMakeFiles/LCD_BUTTON.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+ .debug_frame   0x00005e0c       0x34 CMakeFiles/LCD_BUTTON.dir/Core/Src/sysmem.c.obj
+ .debug_frame   0x00005e40       0xb8 CMakeFiles/LCD_BUTTON.dir/Core/Src/app_tasks.c.obj
+ .debug_frame   0x00005ef8       0xec CMakeFiles/LCD_BUTTON.dir/Core/Src/bsp_board.c.obj
+ .debug_frame   0x00005fe4       0x54 CMakeFiles/LCD_BUTTON.dir/Core/Src/LCD_Show.c.obj
+ .debug_frame   0x00006038      0x198 CMakeFiles/LCD_BUTTON.dir/Core/Src/DS18B20.c.obj
+ .debug_frame   0x000061d0      0x1c0 CMakeFiles/LCD_BUTTON.dir/Core/Src/File_handling_RTOS.c.obj
+ .debug_frame   0x00006390      0x41c CMakeFiles/LCD_BUTTON.dir/Core/Src/ssd1306.c.obj
+ .debug_frame   0x000067ac       0x38 CMakeFiles/LCD_BUTTON.dir/Core/Src/fonts.c.obj
+ .debug_frame   0x000067e4       0x2c C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x00006810       0x34 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x00006844      0x144 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-findfp.o)
+ .debug_frame   0x00006988       0x7c C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-snprintf.o)
+ .debug_frame   0x00006a04       0x74 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-sprintf.o)
+ .debug_frame   0x00006a78       0x20 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memset.o)
+ .debug_frame   0x00006a98       0x38 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-reent.o)
+ .debug_frame   0x00006ad0       0x20 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-errno.o)
+ .debug_frame   0x00006af0       0x2c C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-init.o)
+ .debug_frame   0x00006b1c       0xb0 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-lock.o)
+ .debug_frame   0x00006bcc       0x28 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memcpy-stub.o)
+ .debug_frame   0x00006bf4       0x38 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-freer.o)
+ .debug_frame   0x00006c2c       0x50 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-mallocr.o)
+ .debug_frame   0x00006c7c       0x30 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-mlock.o)
+ .debug_frame   0x00006cac       0x90 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-svfprintf.o)
+ .debug_frame   0x00006d3c       0x60 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf_i.o)
+ .debug_frame   0x00006d9c       0x28 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memmove.o)
+ .debug_frame   0x00006dc4       0x2c C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-sbrkr.o)
+ .debug_frame   0x00006df0       0x3c C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-reallocr.o)
+ .debug_frame   0x00006e2c       0x20 C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-msizer.o)
 
 .debug_line_str
                 0x00000000      0x17f
