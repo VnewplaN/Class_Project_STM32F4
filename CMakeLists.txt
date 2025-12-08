@@ -47,19 +47,25 @@ target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user sources here
 )
 target_sources(${CMAKE_PROJECT_NAME} PRIVATE
-    ${CMAKE_CURRENT_SOURCE_DIR}/Core/Src/app_tasks.c
-    ${CMAKE_CURRENT_SOURCE_DIR}/Core/Src/bsp_board.c
-    ${CMAKE_CURRENT_SOURCE_DIR}/Core/Src/LCD_Show.c
-    ${CMAKE_CURRENT_SOURCE_DIR}/Core/Src/DS18B20.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/Source/Application/app_tasks.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/Source/BSP/board/bsp_board.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/Source/BSP/bsp_display/LCD_Show.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/Source/Drivers/Devices/temp_sensor/DS18B20.c
     ${CMAKE_CURRENT_SOURCE_DIR}/Core/Src/File_handling_RTOS.c
-    ${CMAKE_CURRENT_SOURCE_DIR}/Core/Src/fatfs_sd.c
-    ${CMAKE_CURRENT_SOURCE_DIR}/Core/Src/ssd1306.c
-    ${CMAKE_CURRENT_SOURCE_DIR}/Core/Src/fonts.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/Source/Drivers/Devices/sd_card/fatfs_sd.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/Source/Drivers/Devices/display/ssd1306.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/Source/Drivers/Devices/display/fonts.c
 )
 
 # Add include paths
 target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user defined include paths
+    ${CMAKE_CURRENT_SOURCE_DIR}/Source/Application
+    ${CMAKE_CURRENT_SOURCE_DIR}/Source/BSP/board
+    ${CMAKE_CURRENT_SOURCE_DIR}/Source/BSP/bsp_display
+    ${CMAKE_CURRENT_SOURCE_DIR}/Source/Drivers/Devices/display
+    ${CMAKE_CURRENT_SOURCE_DIR}/Source/Drivers/Devices/temp_sensor
+    ${CMAKE_CURRENT_SOURCE_DIR}/Source/Drivers/Devices/sd_card
 )
 
 # Add project symbols (macros)

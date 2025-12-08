@@ -11,6 +11,12 @@ set(MX_Defines_Syms
 # STM32CubeMX generated include paths
 set(MX_Include_Dirs
     ${CMAKE_CURRENT_SOURCE_DIR}/../../Core/Inc
+    ${CMAKE_CURRENT_SOURCE_DIR}/../../Source/Application
+    ${CMAKE_CURRENT_SOURCE_DIR}/../../Source/BSP/board
+    ${CMAKE_CURRENT_SOURCE_DIR}/../../Source/BSP/bsp_display
+    ${CMAKE_CURRENT_SOURCE_DIR}/../../Source/Drivers/Devices/display
+    ${CMAKE_CURRENT_SOURCE_DIR}/../../Source/Drivers/Devices/temp_sensor
+    ${CMAKE_CURRENT_SOURCE_DIR}/../../Source/Drivers/Devices/sd_card
     ${CMAKE_CURRENT_SOURCE_DIR}/../../FATFS/Target
     ${CMAKE_CURRENT_SOURCE_DIR}/../../FATFS/App
     ${CMAKE_CURRENT_SOURCE_DIR}/../../Drivers/STM32F4xx_HAL_Driver/Inc

@@ -77,19 +77,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 100,
+				"line" : 106,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 102,
+				"line" : 108,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 101,
+				"line" : 107,
 				"parent" : 0
 			}
 		]
@@ -123,6 +123,30 @@
 				{
 					"backtrace" : 2,
 					"path" : "D:/UNI DOC/Embedded System Programming/Projects/LCD_BUTTON/cmake/stm32cubemx/../../Core/Inc"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/UNI DOC/Embedded System Programming/Projects/LCD_BUTTON/cmake/stm32cubemx/../../Source/Application"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/UNI DOC/Embedded System Programming/Projects/LCD_BUTTON/cmake/stm32cubemx/../../Source/BSP/board"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/UNI DOC/Embedded System Programming/Projects/LCD_BUTTON/cmake/stm32cubemx/../../Source/BSP/bsp_display"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/UNI DOC/Embedded System Programming/Projects/LCD_BUTTON/cmake/stm32cubemx/../../Source/Drivers/Devices/display"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/UNI DOC/Embedded System Programming/Projects/LCD_BUTTON/cmake/stm32cubemx/../../Source/Drivers/Devices/temp_sensor"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/UNI DOC/Embedded System Programming/Projects/LCD_BUTTON/cmake/stm32cubemx/../../Source/Drivers/Devices/sd_card"
 				},
 				{
 					"backtrace" : 2,
